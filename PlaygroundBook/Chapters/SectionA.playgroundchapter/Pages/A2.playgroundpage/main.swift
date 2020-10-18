@@ -1,15 +1,24 @@
 //#-hidden-code
 let x = 69420
 //#-end-hidden-code
-//: # A2. Operators & Casting
+//: # A2. Operators & Casting • [3m]
 //:
-//: ````
+//: ```
 //: let x = 69420
-//: ````
+//: ```
 //:
 //: Given an arbitrary value x, print to the console the following:
-//: 1. (x + x) as a String `[1]`
-//: 2. x²¹ `[1]`
-//: 3. Last digit of x `[1]`
+//: 1. (x + x) as a String `[1m]`
+//#-editable-code
 
-<#code#>
+//#-end-editable-code
+
+//: 2. x²¹ `[1m]`
+//#-editable-code
+
+//#-end-editable-code
+
+//: 3. Last digit of x `[1m]`
+//#-editable-code
+
+//#-end-editable-code

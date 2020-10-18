@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>Task 1</string>
+	<string>B1. School Gate</string>
 	<key>LiveViewEdgeToEdge</key>
-	<false/>
+	<true/>
 	<key>LiveViewMode</key>
 	<string>HiddenByDefault</string>
 </dict>

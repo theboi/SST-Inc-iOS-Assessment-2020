@@ -16,7 +16,7 @@ enum options {
 
 var ans = Task()
 //#-end-hidden-code
-//: # Task 2 • 10 Marks
+//: # B2. URL Shortener • 10 Marks
 //: Ryan was tasked with building a link shortener for SST Inc. called go.sstinc.org. The project involves creating a mobile app to generate links.
 //:
 //: Ryan was told the following about the app.

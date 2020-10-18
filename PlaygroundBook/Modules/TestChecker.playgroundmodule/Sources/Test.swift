@@ -7,3 +7,8 @@
 
 import Foundation
 
+public struct Test {
+    public static func type<T, S>(_ expression1: T, _ expression2: S) -> String {
+        return "Hello"
+    }
+}

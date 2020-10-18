@@ -1,11 +1,11 @@
 //:
-//: ## PAPER SETTERS
+//: ## Setters
 //: * Ryan The
 //: * Jia Chen
 //:
 //: - - -
 //:
-//: ## READ THESE INSTRUCTIONS FIRST
+//: ## Read These Instructions First
 //:
 //: * This is a closed-book assessment.
 //: * Turn WiFi and Bluetooth off for the duration of this paper.
@@ -15,14 +15,13 @@
 //:
 //: - - -
 //:
-//: ## INFORMATION FOR CANDIDATES
+//: ## Information For Candidates
 //:
 //: * Answer **all** the questions.
 //: * Enter your answers in the space provided.
 //: * The use of a scientific calculator is expected, where appropriate.
-//: * The number of marks is given in the brackets [ ] at the end of each question or part question.
+//: * The number of marks is given in the brackets `[ ]` at the end of each question or part question.
 //: * The total marks for this paper is 0.
 //:
 //: **Property of SST Inc, School of Science and Technology, Singapore, 2020**
-//:
 //:

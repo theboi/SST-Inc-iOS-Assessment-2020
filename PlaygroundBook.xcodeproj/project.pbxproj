@@ -25,37 +25,6 @@
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		AAF72EA8253BE17B0070A13A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72E9C253BDFB20070A13A /* Test.swift */; };
-		AAF72ED1253BF0870070A13A /* XCTWaiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EB1253BF0870070A13A /* XCTWaiter.swift */; };
-		AAF72ED2253BF0870070A13A /* XCTestCase+Asynchronous.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EB2253BF0870070A13A /* XCTestCase+Asynchronous.swift */; };
-		AAF72ED3253BF0870070A13A /* XCTWaiter+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EB3253BF0870070A13A /* XCTWaiter+Validation.swift */; };
-		AAF72ED4253BF0870070A13A /* XCTNSPredicateExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EB4253BF0870070A13A /* XCTNSPredicateExpectation.swift */; };
-		AAF72ED5253BF0870070A13A /* XCTestExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EB5253BF0870070A13A /* XCTestExpectation.swift */; };
-		AAF72ED6253BF0870070A13A /* XCTNSNotificationExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EB6253BF0870070A13A /* XCTNSNotificationExpectation.swift */; };
-		AAF72ED7253BF0870070A13A /* XCTestObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EB7253BF0870070A13A /* XCTestObservation.swift */; };
-		AAF72ED8253BF0870070A13A /* XCTSkip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EB8253BF0870070A13A /* XCTSkip.swift */; };
-		AAF72ED9253BF0870070A13A /* XCAbstractTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EB9253BF0870070A13A /* XCAbstractTest.swift */; };
-		AAF72EDA253BF0870070A13A /* XCTestSuiteRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EBA253BF0870070A13A /* XCTestSuiteRun.swift */; };
-		AAF72EDB253BF0870070A13A /* XCTestErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EBB253BF0870070A13A /* XCTestErrors.swift */; };
-		AAF72EDC253BF0870070A13A /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EBC253BF0870070A13A /* XCTestCase.swift */; };
-		AAF72EDD253BF0870070A13A /* XCTestCaseRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EBD253BF0870070A13A /* XCTestCaseRun.swift */; };
-		AAF72EDE253BF0870070A13A /* XCTestCase+Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EBE253BF0870070A13A /* XCTestCase+Performance.swift */; };
-		AAF72EDF253BF0870070A13A /* XCTAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EBF253BF0870070A13A /* XCTAssert.swift */; };
-		AAF72EE0253BF0870070A13A /* XCTestObservationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EC0253BF0870070A13A /* XCTestObservationCenter.swift */; };
-		AAF72EE1253BF0870070A13A /* XCTestRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EC1253BF0870070A13A /* XCTestRun.swift */; };
-		AAF72EE2253BF0870070A13A /* XCTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EC2253BF0870070A13A /* XCTestSuite.swift */; };
-		AAF72EE3253BF0870070A13A /* XCTestMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EC3253BF0870070A13A /* XCTestMain.swift */; };
-		AAF72EE4253BF0870070A13A /* PrintObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EC5253BF0870070A13A /* PrintObserver.swift */; };
-		AAF72EE5253BF0870070A13A /* TestListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EC6253BF0870070A13A /* TestListing.swift */; };
-		AAF72EE6253BF0870070A13A /* WallClockTimeMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EC7253BF0870070A13A /* WallClockTimeMetric.swift */; };
-		AAF72EE7253BF0870070A13A /* IgnoredErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EC8253BF0870070A13A /* IgnoredErrors.swift */; };
-		AAF72EE8253BF0870070A13A /* XCTestCaseSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72EC9253BF0870070A13A /* XCTestCaseSuite.swift */; };
-		AAF72EE9253BF0870070A13A /* XCTestInternalObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72ECA253BF0870070A13A /* XCTestInternalObservation.swift */; };
-		AAF72EEA253BF0870070A13A /* ObjectWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72ECB253BF0870070A13A /* ObjectWrapper.swift */; };
-		AAF72EEB253BF0870070A13A /* PerformanceMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72ECC253BF0870070A13A /* PerformanceMeter.swift */; };
-		AAF72EEC253BF0870070A13A /* WaiterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72ECD253BF0870070A13A /* WaiterManager.swift */; };
-		AAF72EED253BF0870070A13A /* TestFiltering.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72ECE253BF0870070A13A /* TestFiltering.swift */; };
-		AAF72EEE253BF0870070A13A /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72ECF253BF0870070A13A /* SourceLocation.swift */; };
-		AAF72EEF253BF0870070A13A /* ArgumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72ED0253BF0870070A13A /* ArgumentParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -214,37 +183,6 @@
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
 		AAF72E9C253BDFB20070A13A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		AAF72EA1253BE0070070A13A /* libTestChecker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestChecker.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAF72EB1253BF0870070A13A /* XCTWaiter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTWaiter.swift; sourceTree = "<group>"; };
-		AAF72EB2253BF0870070A13A /* XCTestCase+Asynchronous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Asynchronous.swift"; sourceTree = "<group>"; };
-		AAF72EB3253BF0870070A13A /* XCTWaiter+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTWaiter+Validation.swift"; sourceTree = "<group>"; };
-		AAF72EB4253BF0870070A13A /* XCTNSPredicateExpectation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTNSPredicateExpectation.swift; sourceTree = "<group>"; };
-		AAF72EB5253BF0870070A13A /* XCTestExpectation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestExpectation.swift; sourceTree = "<group>"; };
-		AAF72EB6253BF0870070A13A /* XCTNSNotificationExpectation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTNSNotificationExpectation.swift; sourceTree = "<group>"; };
-		AAF72EB7253BF0870070A13A /* XCTestObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestObservation.swift; sourceTree = "<group>"; };
-		AAF72EB8253BF0870070A13A /* XCTSkip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTSkip.swift; sourceTree = "<group>"; };
-		AAF72EB9253BF0870070A13A /* XCAbstractTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCAbstractTest.swift; sourceTree = "<group>"; };
-		AAF72EBA253BF0870070A13A /* XCTestSuiteRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestSuiteRun.swift; sourceTree = "<group>"; };
-		AAF72EBB253BF0870070A13A /* XCTestErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestErrors.swift; sourceTree = "<group>"; };
-		AAF72EBC253BF0870070A13A /* XCTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
-		AAF72EBD253BF0870070A13A /* XCTestCaseRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestCaseRun.swift; sourceTree = "<group>"; };
-		AAF72EBE253BF0870070A13A /* XCTestCase+Performance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Performance.swift"; sourceTree = "<group>"; };
-		AAF72EBF253BF0870070A13A /* XCTAssert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTAssert.swift; sourceTree = "<group>"; };
-		AAF72EC0253BF0870070A13A /* XCTestObservationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestObservationCenter.swift; sourceTree = "<group>"; };
-		AAF72EC1253BF0870070A13A /* XCTestRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestRun.swift; sourceTree = "<group>"; };
-		AAF72EC2253BF0870070A13A /* XCTestSuite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestSuite.swift; sourceTree = "<group>"; };
-		AAF72EC3253BF0870070A13A /* XCTestMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestMain.swift; sourceTree = "<group>"; };
-		AAF72EC5253BF0870070A13A /* PrintObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintObserver.swift; sourceTree = "<group>"; };
-		AAF72EC6253BF0870070A13A /* TestListing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestListing.swift; sourceTree = "<group>"; };
-		AAF72EC7253BF0870070A13A /* WallClockTimeMetric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallClockTimeMetric.swift; sourceTree = "<group>"; };
-		AAF72EC8253BF0870070A13A /* IgnoredErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IgnoredErrors.swift; sourceTree = "<group>"; };
-		AAF72EC9253BF0870070A13A /* XCTestCaseSuite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestCaseSuite.swift; sourceTree = "<group>"; };
-		AAF72ECA253BF0870070A13A /* XCTestInternalObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestInternalObservation.swift; sourceTree = "<group>"; };
-		AAF72ECB253BF0870070A13A /* ObjectWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectWrapper.swift; sourceTree = "<group>"; };
-		AAF72ECC253BF0870070A13A /* PerformanceMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceMeter.swift; sourceTree = "<group>"; };
-		AAF72ECD253BF0870070A13A /* WaiterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaiterManager.swift; sourceTree = "<group>"; };
-		AAF72ECE253BF0870070A13A /* TestFiltering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFiltering.swift; sourceTree = "<group>"; };
-		AAF72ECF253BF0870070A13A /* SourceLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceLocation.swift; sourceTree = "<group>"; };
-		AAF72ED0253BF0870070A13A /* ArgumentParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgumentParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -496,72 +434,9 @@
 		AAF72E9B253BDF3F0070A13A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AAF72EAE253BF0870070A13A /* XCTest */,
 				AAF72E9C253BDFB20070A13A /* Test.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		AAF72EAE253BF0870070A13A /* XCTest */ = {
-			isa = PBXGroup;
-			children = (
-				AAF72EAF253BF0870070A13A /* Public */,
-				AAF72EC4253BF0870070A13A /* Private */,
-			);
-			path = XCTest;
-			sourceTree = "<group>";
-		};
-		AAF72EAF253BF0870070A13A /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				AAF72EB0253BF0870070A13A /* Asynchronous */,
-				AAF72EB7253BF0870070A13A /* XCTestObservation.swift */,
-				AAF72EB8253BF0870070A13A /* XCTSkip.swift */,
-				AAF72EB9253BF0870070A13A /* XCAbstractTest.swift */,
-				AAF72EBA253BF0870070A13A /* XCTestSuiteRun.swift */,
-				AAF72EBB253BF0870070A13A /* XCTestErrors.swift */,
-				AAF72EBC253BF0870070A13A /* XCTestCase.swift */,
-				AAF72EBD253BF0870070A13A /* XCTestCaseRun.swift */,
-				AAF72EBE253BF0870070A13A /* XCTestCase+Performance.swift */,
-				AAF72EBF253BF0870070A13A /* XCTAssert.swift */,
-				AAF72EC0253BF0870070A13A /* XCTestObservationCenter.swift */,
-				AAF72EC1253BF0870070A13A /* XCTestRun.swift */,
-				AAF72EC2253BF0870070A13A /* XCTestSuite.swift */,
-				AAF72EC3253BF0870070A13A /* XCTestMain.swift */,
-			);
-			path = Public;
-			sourceTree = "<group>";
-		};
-		AAF72EB0253BF0870070A13A /* Asynchronous */ = {
-			isa = PBXGroup;
-			children = (
-				AAF72EB1253BF0870070A13A /* XCTWaiter.swift */,
-				AAF72EB2253BF0870070A13A /* XCTestCase+Asynchronous.swift */,
-				AAF72EB3253BF0870070A13A /* XCTWaiter+Validation.swift */,
-				AAF72EB4253BF0870070A13A /* XCTNSPredicateExpectation.swift */,
-				AAF72EB5253BF0870070A13A /* XCTestExpectation.swift */,
-				AAF72EB6253BF0870070A13A /* XCTNSNotificationExpectation.swift */,
-			);
-			path = Asynchronous;
-			sourceTree = "<group>";
-		};
-		AAF72EC4253BF0870070A13A /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				AAF72EC5253BF0870070A13A /* PrintObserver.swift */,
-				AAF72EC6253BF0870070A13A /* TestListing.swift */,
-				AAF72EC7253BF0870070A13A /* WallClockTimeMetric.swift */,
-				AAF72EC8253BF0870070A13A /* IgnoredErrors.swift */,
-				AAF72EC9253BF0870070A13A /* XCTestCaseSuite.swift */,
-				AAF72ECA253BF0870070A13A /* XCTestInternalObservation.swift */,
-				AAF72ECB253BF0870070A13A /* ObjectWrapper.swift */,
-				AAF72ECC253BF0870070A13A /* PerformanceMeter.swift */,
-				AAF72ECD253BF0870070A13A /* WaiterManager.swift */,
-				AAF72ECE253BF0870070A13A /* TestFiltering.swift */,
-				AAF72ECF253BF0870070A13A /* SourceLocation.swift */,
-				AAF72ED0253BF0870070A13A /* ArgumentParser.swift */,
-			);
-			path = Private;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -813,38 +688,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF72ED2253BF0870070A13A /* XCTestCase+Asynchronous.swift in Sources */,
-				AAF72EDB253BF0870070A13A /* XCTestErrors.swift in Sources */,
-				AAF72ED7253BF0870070A13A /* XCTestObservation.swift in Sources */,
-				AAF72EE7253BF0870070A13A /* IgnoredErrors.swift in Sources */,
-				AAF72EE4253BF0870070A13A /* PrintObserver.swift in Sources */,
-				AAF72EE5253BF0870070A13A /* TestListing.swift in Sources */,
-				AAF72ED4253BF0870070A13A /* XCTNSPredicateExpectation.swift in Sources */,
-				AAF72EDC253BF0870070A13A /* XCTestCase.swift in Sources */,
-				AAF72EED253BF0870070A13A /* TestFiltering.swift in Sources */,
-				AAF72ED6253BF0870070A13A /* XCTNSNotificationExpectation.swift in Sources */,
-				AAF72EE1253BF0870070A13A /* XCTestRun.swift in Sources */,
-				AAF72EEA253BF0870070A13A /* ObjectWrapper.swift in Sources */,
-				AAF72EE9253BF0870070A13A /* XCTestInternalObservation.swift in Sources */,
-				AAF72EDA253BF0870070A13A /* XCTestSuiteRun.swift in Sources */,
-				AAF72EEE253BF0870070A13A /* SourceLocation.swift in Sources */,
 				AAF72EA8253BE17B0070A13A /* Test.swift in Sources */,
-				AAF72ED8253BF0870070A13A /* XCTSkip.swift in Sources */,
-				AAF72EEC253BF0870070A13A /* WaiterManager.swift in Sources */,
-				AAF72ED9253BF0870070A13A /* XCAbstractTest.swift in Sources */,
-				AAF72EEB253BF0870070A13A /* PerformanceMeter.swift in Sources */,
-				AAF72ED3253BF0870070A13A /* XCTWaiter+Validation.swift in Sources */,
-				AAF72EDF253BF0870070A13A /* XCTAssert.swift in Sources */,
-				AAF72ED1253BF0870070A13A /* XCTWaiter.swift in Sources */,
-				AAF72EE6253BF0870070A13A /* WallClockTimeMetric.swift in Sources */,
-				AAF72EDE253BF0870070A13A /* XCTestCase+Performance.swift in Sources */,
-				AAF72EE3253BF0870070A13A /* XCTestMain.swift in Sources */,
-				AAF72EE0253BF0870070A13A /* XCTestObservationCenter.swift in Sources */,
-				AAF72EDD253BF0870070A13A /* XCTestCaseRun.swift in Sources */,
-				AAF72EE8253BF0870070A13A /* XCTestCaseSuite.swift in Sources */,
-				AAF72EE2253BF0870070A13A /* XCTestSuite.swift in Sources */,
-				AAF72ED5253BF0870070A13A /* XCTestExpectation.swift in Sources */,
-				AAF72EEF253BF0870070A13A /* ArgumentParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

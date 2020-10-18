@@ -4,7 +4,6 @@
 //: ### Swift & iOS
 //:
 
-let name = <#T##String#>
-let sstEmailAddress = <#T##String#>
-let `class` = "S1-0\(<#T##Int#>)"
-let index = <#T##Int#>
+let name = "<#Full Name#>"
+let email = "<#SST Email#>@s2020.ssts.edu.sg"
+let `class` = "S1-0<#X#>"
