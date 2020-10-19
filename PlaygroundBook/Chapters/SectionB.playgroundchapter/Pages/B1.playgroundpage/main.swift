@@ -13,14 +13,12 @@ var ans = Task()
 //:
 //: 1. What is the difference between variables and constants? `[2m]`
 //#-hidden-code
-ans.a = """
+ans.a =
 //#-end-hidden-code
 //#-editable-code
-
-<#answer#>
-//#-hidden-code
 """
-//#-end-hidden-code
+<#answer#>
+"""
 //#-end-editable-code
 
 //: 2.
