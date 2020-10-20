@@ -1,49 +1,24 @@
-//: # B3. Leap Years • [5m]
-//: Kesler wrote the following function to check if it is currently a Leap year. His code is bugged and you have been summoned to help him fix it.
+//#-hidden-code
+import TestChecker
+Test.log("b3")
+//#-end-hidden-code
+//: # B3. FizzBuzz • [6m]
+//: FizzBuzz is a classic programming test, commonly used in coding interviews, to determine whether a given candidate is able to code.
 //:
-//: * Callout(Conditions for a Leap year):
-//: - `year` is a multiple of 4.
-//: - However, if `year` is a multiple of 100, it is **not** a Leap year.
-//: - Notwithstanding this, if `year` is a multiple of 400, it is a Leap year.
+//: Your friend challenges you to complete a modified version of it, broken down into steps. The objectives are as follows:
 //:
-//: Kesler's code to find if a given `year` is a Leap year is shown below. There are **5 errors** present.
-//: > You may make comments such as `// 1` to indicate changes made.
+//: * Callout(Conditions):
+//:     * For each multiple of 3, return "Fizz".
+//:     * For each multiple of 4, return "Buzz".
+//:     * For numbers which are multiples of both 3 **and** 4, return "FizzBuzz".
+//:     * For numbers which do not adhere to the conditions previously stated, return the number itself as a `String`.
 //:
-//: ```
-//: func isLeap(year: Int) {
-//:
-//:     let isLeap = true
-//:
-//:     if year / 4 == 0 {
-//:
-//:         isLeap = true
-//:
-//:         if year % 100 == 0 {
-//:
-//:             isLeap = year % 400 == 0.0
-//:
-//:         }
-//:     }
-//:
-//:     return isLeap
-//: }
-//: ```
+//: 1. Create a function called `fizzBuzz()` which returns a `String` based on the conditions above. `[4m]`
 //#-editable-code
-func isLeap(year: Int) {
-    
-    let isLeap = true
-    
-    if year / 4 == 0 {
-        
-        isLeap = true
-        
-        if year % 100 == 0 {
-            
-            isLeap = year % 400 == 0.0
-            
-        }
-    }
-    
-    return isLeap
-}
+
+//#-end-editable-code
+
+//: 2. Hence, using the function you created above, write a program that prints the corresponding value for numbers 1 to 100, each on a new line. `[2m]`
+//#-editable-code
+
 //#-end-editable-code

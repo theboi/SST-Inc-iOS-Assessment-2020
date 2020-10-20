@@ -1,83 +1,54 @@
 //#-hidden-code
-import UIKit
-
-struct Task {
-    var ai: String = ""
-    var aii: options = .idk
-    var aiii: String = ""
-    var b: () -> () = {}
-}
-
-enum options {
-    case UILabel
-    case UITextField
-    case idk
-}
-
-var ans = Task()
+import TestChecker
+Test.log("b2")
 //#-end-hidden-code
-//: # B2. URL Shortener • 10 Marks
-//: Ryan was tasked with building a link shortener for SST Inc. called go.sstinc.org. The project involves creating a mobile app to generate links.
+//: # B2. Leap Years • [5m]
+//: Kesler wrote the following function to check if it is currently a Leap year. His code is bugged and you have been ordered to help him fix it.
 //:
-//: Ryan was told the following about the app.
-//: - The app should allow the user to type in the long URL
-//: - The app should allow the user to type in an alias
-//:     - An alias refers to the name. go.sstinc.org/alias
-//:     - Example:
-//:         - Alias: swifttest
-//:         - Link: go.sstinc.org/swifttest
-//: - The app should have a button for the user to generate the link
+//: * Callout(Conditions for a Leap year):
+//: - `year` is a multiple of 4.
+//: - However, if `year` is a multiple of 100, it is **not** a Leap year.
+//: - Notwithstanding this, if `year` is a multiple of 400, it is a Leap year.
 //:
-//: ## Part A
-//: Ryan is unsure whether he should be using a UILabel or UITextField for the user to type in the long URL.
+//: Kesler's bugged code to find if a given `year` is a Leap year is shown below. There are **5 errors** present.
+//: > You may make comments such as `// 1` to indicate changes made.
 //:
-//: i) What is the difference between a UILabel and UITextField? **[2M]**
-//#-hidden-code
-ans.ai =
-//#-end-hidden-code
+//: ```
+//: func isLeap(year: Int) {
+//:
+//:     let isLeap = true
+//:
+//:     if year / 4 == 0 {
+//:
+//:         isLeap = true
+//:
+//:         if year % 100 == 0 {
+//:
+//:             isLeap = year % 400 == 0.0
+//:
+//:         }
+//:     }
+//:
+//:     return isLeap
+//: }
+//: ```
+//:
 //#-editable-code
-"""
-<#answer#>
-"""
-//#-end-editable-code
-//: ii) Should Ryan be using a UILabel or UITextField? **[1M]**
-//: > Replace `.idk` below with `.UILabel`, to select UILabel, and `.UITextField`, to select UITextField.
-//#-hidden-code
-ans.aii =
-//#-end-hidden-code
-//#-editable-code
-.idk
-//#-end-editable-code
-//: iii) Justify your answer in *aii*. **[2M]**
-//#-hidden-code
-ans.aiii =
-//#-end-hidden-code
-//#-editable-code
-"""
-<#answer#>
-"""
-//#-end-editable-code
-//: ## Part B
-//: Using the button, createButton, provided below, customise the button based on the design specifications below. **[5M]**
-//:
-//: Design Specifications
-//: - The button should have a blue background
-//: - The button should be a rounded rectangle
-//: - The button’s text should be “Create Link”
-//: - The text on the button should be in white
-//:
-//: The button's name is `createButton`.
-//#-hidden-code
-ans.b = {
-    let createButton = UIButton()
-//#-end-hidden-code
-    //#-editable-code
-    <#code#>
-    //#-end-editable-code
-//#-hidden-code
+func isLeap(year: Int) {
+    
+    let isLeap = true
+    
+    if year / 4 == 0 {
+        
+        isLeap = true
+        
+        if year % 100 == 0 {
+            
+            isLeap = year % 400 == 0.0
+            
+        }
+    }
+    
+    return isLeap
 }
-//#-end-hidden-code
-//#-hidden-code
-ans.b()
-//#-end-hidden-code
-//: End of Task 2
+//#-end-editable-code

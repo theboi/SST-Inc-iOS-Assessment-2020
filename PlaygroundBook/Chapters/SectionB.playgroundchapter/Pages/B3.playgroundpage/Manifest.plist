@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>B3. Leap Years</string>
+	<string>B3. FizzBuzz</string>
 	<key>LiveViewEdgeToEdge</key>
 	<false/>
 	<key>LiveViewMode</key>
