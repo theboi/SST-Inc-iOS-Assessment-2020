@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>B3. FizzBuzz</string>
+	<string>B3. Clicker Again</string>
 	<key>LiveViewEdgeToEdge</key>
-	<false/>
+	<true/>
 	<key>LiveViewMode</key>
 	<string>HiddenByDefault</string>
 </dict>

@@ -5,7 +5,7 @@ Test.log("a2")
 //#-hidden-code
 let x = 69420
 //#-end-hidden-code
-//: # A2. Operators and Casting • [3m]
+//: # A2. Manipulation of Values • [3m]
 //:
 //: ```
 //: let x = 69420

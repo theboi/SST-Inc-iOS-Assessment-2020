@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>A3. Arrays &amp; Loops</string>
+	<string>A4. FizzBuzz</string>
 	<key>LiveViewEdgeToEdge</key>
-	<true/>
+	<false/>
 	<key>LiveViewMode</key>
 	<string>HiddenByDefault</string>
 </dict>
