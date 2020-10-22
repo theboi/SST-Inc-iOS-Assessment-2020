@@ -6,3 +6,11 @@ Test.log("b3")
 //:
 //: 1. Create an array containing the names of your 3 iOS teachers. `[1m]`
 //: 2. For each element in the array, concatenate “ is the best” to the end, and print it out individually. `[2m]`
+//#-hidden-code
+import UIKit
+let button = UIButton()
+let label = UILabel()
+//#-end-hidden-code
+func onButtonPress() {
+    
+}

@@ -1,7 +1,6 @@
 //: ![SST Inc Logo](sst_inc_logo.png "SST Inc. Logo")
-//: # SST Inc iOS Course 2020
-//: ### Mid-course Assessment
-//: ### Swift & iOS
+//: # SST Inc iOS Assessment 2020
+//: ### iOS Development with Swift
 //:
 
 let name = "<#Full Name#>"
