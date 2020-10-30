@@ -1,9 +1,17 @@
+//: ![SST Inc Logo](sst_inc_logo.png "SST Inc. Logo")
+//: # SST Inc iOS Assessment 2020
+//: ### iOS Development with Swift
+//:
+//#-editable-code
+let name = "<#Full Name#>"
+let email = "<#SST Email#>@s2020.ssts.edu.sg"
+let `class` = "S1-0<#X#>"
+//#-end-editable-code
 //:
 //: ## Setters
 //: * Ryan The
 //: * Jia Chen
 //:
-//: - - -
 //:
 //: ## Read These Instructions First
 //:
@@ -13,7 +21,6 @@
 //: * Do not go to the next page until you are told to do so.
 //: * Only open this paper using Swift Playgrounds, either on macOS or iPadOS.
 //:
-//: - - -
 //:
 //: ## Information For Candidates
 //:
@@ -25,3 +32,4 @@
 //:
 //: **Property of SST Inc, School of Science and Technology, Singapore, 2020**
 //:
+
