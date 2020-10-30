@@ -24,6 +24,7 @@
 		5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2F97E2054B6E400191409 /* ManifestPlist.strings */; };
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
+		AA48781325412E630065340B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AA48781225412E630065340B /* LICENSE */; };
 		AAF72EA8253BE17B0070A13A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72E9C253BDFB20070A13A /* Test.swift */; };
 /* End PBXBuildFile section */
 
@@ -180,6 +181,7 @@
 		5EF2F9AB2054BBF300191409 /* libBookCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBookCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
+		AA48781225412E630065340B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AAF72E9C253BDFB20070A13A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		AAF72EA1253BE0070070A13A /* libTestChecker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestChecker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -271,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				5E0E37542065A065008FA4BE /* README.md */,
+				AA48781225412E630065340B /* LICENSE */,
 				5E086DC12051C5A7004D8D25 /* SST-Inc-iOS-Assessment-2020 */,
 				5EA2E3BE2056F35A00416A35 /* LiveViewTestApp */,
 				5E2A7AE3204F628B00F4E17A /* Config Files */,
@@ -607,6 +610,7 @@
 			files = (
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				5E551EC52371FC3F00784365 /* Assets.xcassets in Resources */,
+				AA48781325412E630065340B /* LICENSE in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

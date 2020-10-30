@@ -5,7 +5,7 @@
 //  Created by Ryan The on 18/10/20.
 //
 
-import Foundation
+import UIKit
 import PlaygroundSupport
 
 public struct Test {
@@ -37,5 +37,20 @@ public struct Test {
             }
             return codeString
         }
+    }
+}
+
+public extension UIButton {
+    private func actionHandler(action:(() -> Void)? = nil) {
+        struct __ { static var action :(() -> Void)? }
+        if action != nil { __.action = action }
+        else { __.action?() }
+    }
+    @objc private func triggerActionHandler() {
+        self.actionHandler()
+    }
+    public func actionHandler(controlEvents control: UIControl.Event, forAction action: @escaping () -> Void) {
+        self.actionHandler(action: action)
+        self.addTarget(self, action: #selector(triggerActionHandler), for: control)
     }
 }
