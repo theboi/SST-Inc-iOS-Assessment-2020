@@ -3,7 +3,8 @@ import TestChecker
 Test.log("a2")
 //#-end-hidden-code
 //#-hidden-code
-let x = 69420
+import Foundation
+let x: Decimal = 69420
 //#-end-hidden-code
 //: # A2. Manipulation of Values • [3m]
 //:
