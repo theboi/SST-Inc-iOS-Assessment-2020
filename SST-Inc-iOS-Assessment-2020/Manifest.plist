@@ -30,5 +30,7 @@
 	<string>Full</string>
 	<key>SupportsDarkMode</key>
 	<true/>
+	<key>ImageReference</key>
+	<string>book_icon.png</string>
 </dict>
 </plist>

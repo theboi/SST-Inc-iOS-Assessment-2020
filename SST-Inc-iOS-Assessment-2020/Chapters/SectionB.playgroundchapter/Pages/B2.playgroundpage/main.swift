@@ -8,7 +8,7 @@ Test.log("b2")
 //: * Callout(Conditions for a Leap year):
 //: - `year` is a multiple of 4.
 //: - However, if `year` is a multiple of 100, it is **not** a Leap year.
-//: - Notwithstanding this, if `year` is a multiple of 400, it is a Leap year.
+//: - Notwithstanding, if `year` is a multiple of 400, it is a Leap year.
 //:
 //: > * You may make comments such as `// 1` to indicate changes made.
 //:
