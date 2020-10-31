@@ -5,7 +5,7 @@
 //#-editable-code
 let name = "<#Full Name#>"
 let email = "<#SST Email#>@s2020.ssts.edu.sg"
-let `class` = "S1-0<#X#>"
+let `class` = "S<#X#>-0<#X#>"
 //#-end-editable-code
 //:
 //: ## Setters

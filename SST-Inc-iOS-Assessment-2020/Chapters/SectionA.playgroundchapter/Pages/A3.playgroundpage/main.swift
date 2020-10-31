@@ -9,9 +9,9 @@ Test.log("a3")
 //: |  Name  | Wears Glasses | Watch Color |
 //: +--------+---------------+-------------+
 //: | Ryan   | Yes           | Black       |
-//: | Joe    | No            | Green       |
+//: | Joe    | No            | Pink        |
 //: | Joshua | Yes           | -           |
-//: | Ethan  | Yes           | Blue        |
+//: | Ethan  | Yes           | Grey        |
 //: +--------+---------------+-------------+
 //: ```
 //: 1. Define a structure called `Teacher` with properties: `name` and `wearsGlasses`, and **optional** property: `watchColor`, with appropriate types. `[2m]`

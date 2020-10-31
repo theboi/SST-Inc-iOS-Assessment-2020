@@ -4,6 +4,7 @@
 //: * A2. Manipulation of Values `[3m]`
 //: * A3. Collections and Objects `[6m]`
 //: * A4. FizzBuzz `[6m]`
+//: * A5. A Thousand Words `[3m]`
 //:
 //: ## Section B
 //: * B1. School Gate `[12m]`
