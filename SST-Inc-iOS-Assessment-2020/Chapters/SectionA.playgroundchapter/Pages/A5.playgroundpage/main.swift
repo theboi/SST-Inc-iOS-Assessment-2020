@@ -18,12 +18,12 @@ let imageView = UIImageView()
 
 //#-end-editable-code
 
-//: 2. Adjust the scaling of the image such that the entire image can be viewed while keeping the aspect ratio (not stretched/squashed). `[1m]`
+//: 2. Adjust the scaling of the image such that the entire image can be viewed at any size, while keeping the aspect ratio (not stretched/squashed). `[1m]`
 //#-editable-code
 
 //#-end-editable-code
 
-//: 3. What is the difference between `UIImageView` and `UIImage`? Why cannot we use them interchangeably? `[1m]`
+//: 3. What is the difference between `UIImageView` and `UIImage`? Why are we unable to use them interchangeably? `[1m]`
 //#-hidden-code
 let imageViewVsImage =
 //#-end-hidden-code
