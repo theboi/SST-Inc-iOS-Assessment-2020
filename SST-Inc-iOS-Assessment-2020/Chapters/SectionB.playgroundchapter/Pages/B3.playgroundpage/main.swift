@@ -31,12 +31,6 @@ button.backgroundColor = .link
 button.setTitleColor(.white, for: .normal)
 button.setTitle("+1", for: .normal)
 button.contentEdgeInsets = UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20)
-
-//stack.translatesAutoresizingMaskIntoConstraints = false
-//view.addConstraints([
-//    stack.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//    stack.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-//])
 //#-end-hidden-code
 //: # B3. iClicker Pro Max Plus Ultra 5GS+ • [9m]
 //:
