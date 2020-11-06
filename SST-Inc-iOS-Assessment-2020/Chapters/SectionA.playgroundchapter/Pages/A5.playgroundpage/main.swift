@@ -8,12 +8,12 @@ import PlaygroundSupport
 
 let imageView = UIImageView()
 //#-end-hidden-code
-//: # A5. A Thousand Words • [3m]
+//: # A5. A Thousand Words • [4m]
 //:
 //: ```
 //: let imageView = UIImageView()
 //: ```
-//: 1. Given an image view, `imageView`, and an image called `wheres_waldo` in `Assets.xcassets`, display the image. `[1m]`
+//: 1. Display an image saved in `Assets.xcassets`, called `wheres_waldo`, in the image view, `imageView`. `[2m]`
 //#-editable-code
 
 //#-end-editable-code
