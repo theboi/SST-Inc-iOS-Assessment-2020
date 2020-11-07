@@ -1,4 +1,4 @@
-//:
+//: 
 //: ## Section A
 //: * A1. Variables and Constants `[5m]`
 //: * A2. Manipulation of Values `[3m]`
@@ -10,4 +10,4 @@
 //: * B1. School Gate `[10m]`
 //: * B2. Leap Years `[9m]`
 //: * B3. iClicker Pro Max Plus Ultra 5GS+ `[9m]`
-//: * B4. Quiz App `[10m]`
+//: * B4. Quiz App `[18m]`
