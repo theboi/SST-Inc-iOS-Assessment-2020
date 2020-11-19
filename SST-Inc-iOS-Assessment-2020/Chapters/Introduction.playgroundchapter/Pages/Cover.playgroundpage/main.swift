@@ -28,7 +28,7 @@ let `class` = "S<#X#>-0<#X#>"
 //: * Enter your answers in the space provided.
 //: * The use of a scientific calculator is expected, where appropriate.
 //: * The number of marks is given in the brackets `[ ]` at the end of each question or part question.
-//: * The total marks for this paper is 60.
+//: * The total marks for this paper is 70.
 //:
 //: **Property of SST Inc, School of Science and Technology, Singapore, 2020**
 //:
