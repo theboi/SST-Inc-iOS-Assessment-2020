@@ -57,9 +57,9 @@ func isLeap(year: Int) {
 }
 //#-end-editable-code
 
-//: While running his corrected function on Xcode, Kesler came across a line with a blue tag-shaped highlight on the line number, as seen in the image below. Whenever he attempts to run his app, it stops at that point.
+//: While running his corrected function on Xcode, Kesler came across a line with a blue tag-shaped highlight on the line number, as seen in the image below. Whenever he attempts to run his app, it stops.
 //:
-//: ![Breakpoint](breakpoint.png "Breakpoint")
+//: ![Highlight](highlight.png "Highlight")
 //:
 //: 2. What is this feature called? How is it useful? How can Kesler get rid of it? `[2m]`
 //#-hidden-code
