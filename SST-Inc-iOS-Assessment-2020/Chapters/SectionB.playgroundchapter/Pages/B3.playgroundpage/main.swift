@@ -37,24 +37,50 @@ button.contentEdgeInsets = UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20
 //: You are a software engineer at 🅱️pple, working on a new product: iClicker Pro Max Plus Ultra 5GS+. To be sold at $999 (not including clicker and charger) the product is to come with the following features:
 //: 1. Label is to be set to your name when the program runs initially. `[1m]`
 //: 2. Border radius of the button is to be set to `15`. `[1m]`
-//: 2. Background color of the button should change to a random color each time the button is pressed. `[2m]`
-//: 3. Label should display the number of times the button has been clicked whenever the button is tapped. `[1m]`
-//: 4. When the number of clicks exceed `17`,
-//:     * Label is to be set to the time in seconds taken to click `17` times, since the first click. `[3m]`
+//: 3. Background color of the button should change to a random color each time the button is pressed. `[2m]`
+//: 4. Label should display the number of times the button has been clicked whenever the button is tapped. `[1m]`
+//: 5. Every `17` clicks, `[1m]`
+//:     * Label should be set to the time in seconds since the first click, e.g. "30s". `[1m]`
 //:     * Text on the button is to be set to `"Yay"` (Hint: The correct answer requires setting text for the `.normal` state). `[1m]`
+//:     * Reset the text on the button back to +1 after the next click. [1m]
 //:
-//: Program a clicker which complies with the requirements, else risk getting sacked :)
+//: Program a clicker which complies with the requirements, else, unemployment rate 📈...
 //: > The constants holding the UI elements as seen on the right can be accessed via `button` and `label`.
 //: > The function `onButtonPress()` is called whenever the button, `button`, is pressed.
 //: ```
 //: let label = UILabel()
 //: let button = UIButton()
 //: ```
-func onButtonPress() {
+//#-editable-code
+
+/// You may declare any variables you may require here.
+
+// type code here
+
+func viewDidLoad() {
+    /// Treat this function as your typical `viewDidLoad()`.
     
+    // type code here
 }
+
+func viewDidAppear(_ animated: Bool) {
+    /// Treat this function as your typical `viewDidAppear(_:)`.
+
+    // type code here
+}
+
+func onButtonPress() {
+    /// Treat this function as your typical `@IBAction` which is linked to the button.
+    
+    // type code here
+}
+
+//#-end-editable-code
+
 //#-hidden-code
+viewDidAppear()
 button.actionHandler(controlEvents: .touchUpInside, forAction: onButtonPress)
+viewDidLoad()
 
 PlaygroundPage.current.liveView = view
 //#-end-hidden-code

@@ -8,16 +8,30 @@ Test.log("a4")
 //: - Important: The conditions are slightly modified from the classic FizzBuzz question.
 //:
 //: * Callout(Conditions):
-//:     * Multiple of 3 -> `"Fizz"`.
-//:     * Multiple of 4 -> `"Buzz"`.
-//:     * Multiples of both 3 **and** 4 -> `"FizzBuzz"`.
-//:     * None of the above -> the number itself as a `String`.
-//: 1. Create a function called `fizzBuzz()` which takes a parameter `number` of type `Int` and returns a `String` based on the conditions above. `[4m]`
+//:     * For every multiple of 3, print -> `"Fizz"`.
+//:     * For every multiple of 4, print -> `"Buzz"`.
+//:     * If it is a multiple of both 3 **and** 4 -> `"FizzBuzz"`.
+//:     * If it is none of the above, print the number itself.
+//:
+//: + Callout(Sample Input/Output):
+//:     - When number = 1, return "1"
+//:     - When number = 6, return "Fizz"
+//:     - When number = 8, return "Buzz"
+//:     - When number = 12, return "FizzBuzz"
+//:
+//: 1. Create a function called `fizzBuzz` which takes a parameter `number` of type `Int` and returns a `String` ("Fizz", "Buzz", "FizzBuzz", or the number itself) based on the conditions above. Refer to the sample Input/Output. `[4m]`
+//:
 //#-editable-code
-
 //#-end-editable-code
 
-//: 2. Hence, **using the function you created above**, write a program that prints the corresponding value for numbers 1 to 50, each on a new line. `[2m]`
+//: 2. Hence, **using the function you created above**, print out the corresponding values when the numbers 1 to 50 are input, each on a new line. `[2m]`
+//:
+//: ```
+//: 1
+//: 2
+//: Fizz
+//: Buzz
+//: …
+//: ```
 //#-editable-code
-
 //#-end-editable-code
