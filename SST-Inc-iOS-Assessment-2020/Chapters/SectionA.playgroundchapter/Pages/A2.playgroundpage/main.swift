@@ -13,14 +13,14 @@ let x = 69420
 //: ```
 //:
 //: Given that `x = 69420`, print out the following:
-//: 1. (x + x) as a `String` `[1m]`
+//: 1. `(x + x)` as a `String`. `[1m]`
 //#-editable-code
 //#-end-editable-code
 
-//: 2. x²¹ `[1m]`
+//: 2. `x`²¹. `[1m]`
 //#-editable-code
 //#-end-editable-code
 
-//: 3. Last digit of x `[1m]`
+//: 3. Last digit of `x`. `[1m]`
 //#-editable-code
 //#-end-editable-code

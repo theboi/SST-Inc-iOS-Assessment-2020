@@ -10,6 +10,8 @@ let imageView = UIImageView()
 //#-end-hidden-code
 //: # A5. A Thousand Words • [3m]
 //:
+//: What speaks more than a thousand words? A thousand Waldos!
+//:
 //: ```
 //: let imageView = UIImageView()
 //: ```

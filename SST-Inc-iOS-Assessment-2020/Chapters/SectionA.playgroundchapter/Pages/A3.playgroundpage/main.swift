@@ -14,7 +14,7 @@ Test.log("a3")
 //: | Ethan  | Yes           | Grey        |
 //: +--------+---------------+-------------+
 //: ```
-//: 1. Define a structure (struct) called `Teacher` with the properties: `name`,`wearsGlasses`, and an **optional** value: `watchColor`, with the most appropriate types based on the table above. `[2m]`
+//: 1. Define a structure (struct) called `Teacher` with the properties: `name`, `wearsGlasses`, and an **optional** value: `watchColor`, with the most appropriate types based on the table above. `[2m]`
 //#-editable-code
 //#-end-editable-code
 
@@ -22,6 +22,6 @@ Test.log("a3")
 //#-editable-code
 //#-end-editable-code
 
-//: 3. For each `name` in the array declared in _2_, add `" is the best"` to the end of the `name`, and print it out individually. `[2m]`
+//: 3. For each `name` in the array declared previously, add `" is the best"` to the end of the `name`, and print it out individually. `[2m]`
 //#-editable-code
 //#-end-editable-code
