@@ -10,9 +10,9 @@ Test.log("b2")
 //: - However, if `year` is a multiple of 100, it is **not** a Leap year.
 //: - Notwithstanding, if `year` is a multiple of 400, it is a Leap year.
 //:
-//: > * You may make comments such as `// 1` to indicate changes made.
+//: > * You may make comments such as `// 1` to indicate changes made. You are supposed to make small changes to the program. You will receive a zero mark if you fundementally change/alter the program in order to make it work.
 //:
-//: * important: If you are unable to complete (1) and the linter incessantly shows red bubble errors, remove the code in (1) entirely and finish the remaining parts. Code only saves when it successfully runs.
+//: * important: If you are unable to complete (1) and the Playgrounds incessantly shows red bubble errors, remove the code in (1) entirely and finish the remaining parts. Code only saves when it successfully runs.
 //:
 //: ```
 //: func isLeap(year: Int) {
@@ -57,9 +57,9 @@ func isLeap(year: Int) {
 }
 //#-end-editable-code
 
-//: While running his corrected function on Xcode, Kesler came across a line with a blue tag-shaped highlight on the line number, as seen in the image below.
+//: While running his corrected function on Xcode, Kesler came across a line with a blue tag-shaped highlight on the line number, as seen in the image below. Whenever he attempts to run his app, it stops at that point.
 //:
-//: ![Blue tag-shaped highlight](highlight.png "Blue tag-shaped highlight")
+//: ![Breakpoint](breakpoint.png "Breakpoint")
 //:
 //: 2. What is this feature called? How is it useful? How can Kesler get rid of it? `[2m]`
 //#-hidden-code

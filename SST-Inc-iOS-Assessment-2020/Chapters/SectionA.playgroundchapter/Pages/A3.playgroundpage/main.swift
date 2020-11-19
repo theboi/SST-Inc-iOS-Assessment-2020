@@ -14,17 +14,14 @@ Test.log("a3")
 //: | Ethan  | Yes           | Grey        |
 //: +--------+---------------+-------------+
 //: ```
-//: 1. Define a structure called `Teacher` with properties: `name` and `wearsGlasses`, and **optional** property: `watchColor`, with appropriate types. `[2m]`
+//: 1. Define a structure (struct) called `Teacher` with the properties: `name`,`wearsGlasses`, and an **optional** value: `watchColor`, with the most appropriate types based on the table above. `[2m]`
 //#-editable-code
-
 //#-end-editable-code
 
-//: 2. Create an array called `teachers` containing instances of `Teacher` using the details provided. `[2m]`
+//: 2. Create an array called `teachers` containing multiple instances of `Teacher` using the details provided in the table above. `[2m]`
 //#-editable-code
-
 //#-end-editable-code
 
-//: 3. For `name` of each element in the array, concatenate `" is the best"` to the end, and print it out individually. `[2m]`
+//: 3. For each `name` in the array declared in _2_, add `" is the best"` to the end of the `name`, and print it out individually. `[2m]`
 //#-editable-code
-
 //#-end-editable-code

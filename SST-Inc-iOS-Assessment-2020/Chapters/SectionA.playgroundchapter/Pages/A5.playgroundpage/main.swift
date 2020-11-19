@@ -8,17 +8,22 @@ import PlaygroundSupport
 
 let imageView = UIImageView()
 //#-end-hidden-code
-//: # A5. A Thousand Words • [4m]
+//: # A5. A Thousand Words • [3m]
 //:
 //: ```
 //: let imageView = UIImageView()
 //: ```
-//: 1. Display an image saved in `Assets.xcassets`, called `wheres_waldo`, in the image view, `imageView`. `[2m]`
+//: > Treat this `imageView` like your typical UIImageView.
+//:
+//: 1. Given an image view, `imageView`, and an image called `wheres_waldo` in `Assets.xcassets`, display the image. `[1m]`
 //#-editable-code
 
 //#-end-editable-code
 
-//: 2. Adjust the scaling of the image such that the entire image can be viewed at any size, while keeping the aspect ratio (not stretched/squashed). `[1m]`
+//: 2. Adjust the `contentMode` value of the image such that the entire image can be viewed, without getting cropped, while keeping the aspect ratio (not stretched/squashed). `[1m]`
+//:
+//: > You may use the Live View to preview the result of your code.
+//:
 //#-editable-code
 
 //#-end-editable-code
