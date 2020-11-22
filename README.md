@@ -11,29 +11,21 @@ Only to be made public after date of the assessment.
 - [Ryan The](https://github.com/theboi)
 - [Jia Chen](https://github.com/jiachenyee)
 
-## Answer Sheet
+## Mark Sheet
 
 ### General Guidelines
 
 In order to obtain maximum uniformity in marking of the scripts, please follow these guidelines closely.
 
-Spelling: Unless the mistake causes a major issue in the running of the program, allow.
-
-Accuracy: If the program is able to do the given task, without violating any aforesaid criteria, allow.
-
-Hardcode: Hardcoding not allowed.
-
-Pity Marks: Not allowed.
-
-Indecision: Should the marker be unable to decide marks, let it be known to the other markers for discussion.
-
-Method vs Answer Marks: If question is (A1 + M1), getting A1 is dependant on M1, but not vice versa.
-
-Scepticism of Credibility: The mark sheet is accurate as of 22 Nov 2020.
-
 | Name | Description |
 | - | - |
-|  |  |
+| Spelling | Unless the mistake causes a major issue in the running of the program, allow. |
+| Accuracy | If the program is able to do the given task, without violating any aforesaid criteria, allow. |
+| Hardcode | Hardcoding not allowed. |
+| Pity Marks | Not allowed. |
+| Indecision | Should the marker be unable to decide marks, let it be known to the other markers for discussion. |
+| Method vs Answer Marks | If question is (A1 + M1), getting A1 is dependant on M1, but not vice versa. |
+| Scepticism of Credibility | The mark sheet is accurate as of 22 Nov 2020. |
 
 ### Terminology
 
