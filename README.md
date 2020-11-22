@@ -17,7 +17,7 @@ Only to be made public after date of the assessment.
 
 In order to obtain maximum uniformity in marking of the scripts, please follow these guidelines closely.
 
-Spelling: Unless the mistake causes a major issue in the running of the code, allow.
+Spelling: Unless the mistake causes a major issue in the running of the program, allow.
 
 Accuracy: If the program is able to do the given task, without violating any aforesaid criteria, allow.
 
@@ -27,7 +27,13 @@ Pity Marks: Not allowed.
 
 Indecision: Should the marker be unable to decide marks, let it be known to the other markers for discussion.
 
+Method vs Answer Marks: If question is (A1 + M1), getting A1 is dependant on M1, but not vice versa.
+
 Scepticism of Credibility: The mark sheet is accurate as of 22 Nov 2020.
+
+| Name | Description |
+| - | - |
+|  |  |
 
 ### Terminology
 
@@ -86,6 +92,8 @@ Incorrect:
 
 ```swift
 print(String(x + x))
+// or
+print(String(2 * x))
 ```
 
 * A1: Use `print()` and `String()`
@@ -102,7 +110,7 @@ print(pow(Decimal(x), 21))
 print(x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x * x) // please don't do this
 ```
 
-A1: Use `*` or `pow()`. If student uses `*`, make sure it has 21 `x`s.
+* A1: Use `*` or `pow()`. If student uses `*`, make sure it has 21 `x`s.
 
 ---
 
@@ -114,8 +122,7 @@ print(x % 10)
 print(String(x).last)
 ```
 
-A1: Use `% 10` or convert x to a `String` and get the last character of it,
-
+* A1: Use `% 10` or convert x to a `String` and get the last character of it. If output is optional, give BOD.
 
 </details>
 
@@ -126,53 +133,56 @@ A1: Use `% 10` or convert x to a `String` and get the last character of it,
 
 ```swift
 struct Teacher {
-    let name: String
-    let wearsGlasses: Bool
-    let watchColor: String?
+    var name: String
+    var wearsGlasses: Bool
+    var watchColor: String?
 }
 ```
 
-M1: Create a struct
-
-A1: Set correct types including optionals
+* M1: Create a structure. Allow `let` for properties of `Teacher`.
+* A1: Set correct types including optionals.
 
 ---
 
 2. Create an array called `teachers` containing multiple instances of `Teacher` using the details provided in the table above. `[2m]`
 
 ```swift
-let teachers = [Teacher(name: "Ryan", 
+let teachers = [Teacher(name: "Ryan",
                         wearsGlasses: true,
-                        watchColor: "Black"), 
-                Teacher(name: "Joe", 
-                        wearsGlasses: false, 
-                        watchColor: "Pink"), 
-                Teacher(name: "Joshua", 
-                        wearsGlasses: true,
-                        watchColor: nil), 
+                        watchColor: "Black"),
+                Teacher(name: "Joe",
+                        wearsGlasses: false,
+                        watchColor: "Pink"),
+                Teacher(name: "Joshua",
+                        wearsGlasses: true),
+                    //  watchColor: nil
                 Teacher(name: "Ethan",
                         wearsGlasses: true,
                         watchColor: "Grey")]
 
 ```
 
-M1: Create an array
-
-A1: Instantiate Teacher with correct details
+* M1: Create an array
+* A1: Instantiate Teacher with correct details. Allow `watchColor: nil` for Joshua.
 
 ---
 
 3. For each `name` in the array declared previously, add `" is the best"` to the end of the `name`, and print it out individually. `[2m]`
 
 ```swift
+for var teacher in teachers {
+    teacher.name.append(" is the best")
+    print(teacher.name)
+}
+// or
 for teacher in teachers {
     print(teacher.name + " is the best")
 }
+
 ```
 
-M1: Use for loop
-
-A1: Add the words “ is the best” to the end of it and print it out
+* M1: Use for loop
+* A1: Add the words “ is the best” to the end of it and print it out
 
 
 </details>
@@ -183,7 +193,7 @@ A1: Add the words “ is the best” to the end of it and print it out
 1. Create a function called `fizzBuzz` which takes a parameter `number` of type `Int` and returns a `String` ("Fizz", "Buzz", "FizzBuzz", or the number itself) based on the conditions above. Refer to the sample Input/Output. `[4m]`
 
 ```swift
-func fizzBuzz(number: Int) -String {
+func fizzBuzz(number: Int) -> String {
    
     var output = ""
     
@@ -203,13 +213,10 @@ func fizzBuzz(number: Int) -String {
 }
 ```
 
-M1: Write a function with correct parameters and returns
-
-M1: At least 2 out of 4 conditions returns correctly
-
-M1: Correctly identifies all cases
-
-A1: Correctly returns value for all cases
+* M1: Write a function with correct parameters and returns
+* M1: At least 2 out of 4 conditions returns correctly
+* M1: Correctly identifies all cases
+* A1: Correctly returns value for all cases
 
 ---
 
@@ -217,11 +224,12 @@ A1: Correctly returns value for all cases
 
 ```swift
 for i in 1...50 {
-    print(fizzBuzz(number: 50))
+    print(fizzBuzz(number: i))
 }
 ```
 
-A1: Loops from 1 to 50, prints it out
+* M1: Loops from 1 to 50
+* M1: Calls `fizzBuzz(number: i)`
 
 </details>
 
@@ -234,8 +242,10 @@ A1: Loops from 1 to 50, prints it out
 imageView.image = UIImage(named: “wheres_waldo”)
 ```
 
-A1: Access the imageView.image property and set it to the correct image 
-- 0 if they misspell "wheres_waldo" as it will result in no images showing up
+* A1: Access the imageView.image property and set it to the correct image
+
+Incorrect:
+* Misspell "wheres_waldo", as it will result in no images showing up
 
 ---
 
@@ -245,7 +255,7 @@ A1: Access the imageView.image property and set it to the correct image
 imageView.contentMode = .aspectFit
 ```
 
-A1: Set imageView.contentMode to the correct case
+* A1: Set `imageView.contentMode` to the correct case
 
 ---
 
@@ -255,7 +265,7 @@ A1: Set imageView.contentMode to the correct case
 UIImageView is used to display a UIImage while a UIImage is the image itself.
 ```
 
-A1: UIImageView is a container view to hold the UIImage, whereas the UIImage is the image data.
+* A1: UIImageView is a container view to hold the UIImage, whereas the UIImage is the image data.
 
 </details>
 
@@ -276,15 +286,11 @@ if isWithinOperatingHours && isStudentPass || isBypassPass || isFire {
 isUnlocked = isWithinOperatingHours && isStudentPass || isBypassPass || isFire
 ```
 
-M1: Correct use of && operator
-
-M1: Correct use of || operator for bypass pass
-
-M1: Set isUnlocked properly
-
-M1: Correct if syntax (if user does not use if, award based on the last condition)
-
-A1: Algorithm works, passed all private/public test cases
+* M1: Correct use of && operator
+* M1: Correct use of || operator for bypass pass
+* M1: Set isUnlocked properly
+* M1: Correct if syntax (if user does not use if, award based on the last condition)
+* A1: Algorithm works, passed all private/public test cases
 
 ---
 
@@ -299,15 +305,11 @@ Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
 }
 ```
 
-M1: Declaring a variable to keep track of the number of seconds passed
-
-M1: Creating a Timer
-
-M1: Correct TimeInterval and Repeats = true
-
-M1: Correct use of Closure
-
-A2: Adds 1 to the variable intended to keep track of the seconds passed and prints result
+* M1: Declaring a variable to keep track of the number of seconds passed
+* M1: Creating a Timer
+* M1: Correct TimeInterval and Repeats = true
+* M1: Correct use of Closure
+* A2: Adds 1 to the variable intended to keep track of the seconds passed and prints result
 
 </details>
 
@@ -316,17 +318,30 @@ A2: Adds 1 to the variable intended to keep track of the seconds passed and prin
 
 1. Kesler's bugged code is shown below. There are **5 errors** present. Fix them. `[5m]`
 
+Incorrect:
+* Student fundamentally changes/rewrites the program 
+
 ```swift
-func isLeap(year: Int) {
+// 1
+// Set return type to Bool
+func isLeap(year: Int) -> Bool {
     
-    let isLeap = true
+    // 2
+    // A1: Change let to var
+    // 3
+    // A1: Change true to false
+    var isLeap = false
     
+    // 4
+    // A1: Replace division (/) with modulo (%)
     if year / 4 == 0 {
         
         isLeap = true
         
         if year % 100 == 0 {
             
+            // 5
+            // A1: Replace 0.0 to 0, because Int
             isLeap = year % 400 == 0.0
             
         }
@@ -335,31 +350,6 @@ func isLeap(year: Int) {
     return isLeap
 }
 ```
- 
-Answer:
-```swift
-func isLeap(year: Int) -Bool { // 1 (set return type as Boolean)
-    
-    var isLeap = false // 2 (change let to var), 3 (change true to false)
-    
-    if year / 4 == 0 { // 4 (Replace division (/) with modulo (%))
-        
-        isLeap = true
-        
-        if year % 100 == 0 {
-            
-            isLeap = year % 400 == 0.0 // 5 (0.0 to 0, because Integer)
-            
-        }
-    }
-    
-    return isLeap
-}
-```
-
-M1: Each fixed error.
-- 0 marks if student fundementally changes the program 
-- 0 marks if student rewrites the program
 
 ---
 
@@ -372,9 +362,8 @@ Breakpoints help to pause the program at a specific point and allow for the use 
 Kesler can remove it by dragging it out or secondary-click (right click) it and delete it.
 ```
 
-M1: Identification + How to remove
-
-M1: Function of Breakpoints
+* M1: Identification + How to remove
+* M1: Function of Breakpoints
 
 ---
 
@@ -385,9 +374,8 @@ A SIGABRT error is usually caused by a missing/broken Storyboard connection
 A SIGTERM is usually caused by force quitting the Simulator
 ```
 
-M1: SIGABRT reason
-M1: SIGTERM reason
-
+* M1: SIGABRT reason
+* M1: SIGTERM reason
 
 </details>
 
@@ -399,43 +387,69 @@ M1: SIGTERM reason
 3. Background color of the button should change to a random color each time the button is pressed. `[2m]`
 4. Label should display the number of times the button has been clicked whenever the button is tapped. `[1m]`
 5. Every 17 clicks,
-    * Label should be set to the time in seconds since the first click, e.g. "30s". `[2m]`
+    * Label should be set to the time in seconds since the first click, e.g. `"30s"`. `[2m]`
     * Text on the button is to be set to `"Yay"` (Hint: The correct answer requires setting text for the `.normal` state). `[1m]`
     * Reset the text on the button back to +1 after the next click. `[1m]`
 
 ```swift
+// 4 (1)
 var counter = 0
+
+// 5i (1)
+// M1: Create seconds var
 var seconds = 0
 
 func viewDidLoad() {
-    /// Code entered here will be run as part of your viewDidLoad
-    /// Use this function for any code that needs to be run initially
-    /// Treat this as your `viewDidLoad()`
-    
+
+    // 1
+    // A1: Set text of label
     label.text = "Jia Chen"
-    button.layer.cornerRadius = 15
     
+    // 2
+    // A1: Change cornerRadius
+    button.layer.cornerRadius = 15
+
+}
+
+func viewDidAppear(_ animated: Bool) {
+
+    // 5i (2)
+    // Increment seconds by 1 every second
     Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
         seconds += 1
     }
+
 }
 
 func onButtonPress() {
-    /// Code entered here will be run when the button is pressed
+
+    // 3
+    // M1: Get random number from 0 to 1
+    // M1: Set backgroundColor
+    button.backgroundColor = UIColor(red: CGFloat.random(in: 0...1),
+                                     green: CGFloat.random(in: 0...1),
+                                     blue: CGFloat.random(in: 0...1),
+                                     alpha: 1)
     
-    button.setTitle("+1", for: .normal)
-    button.backgroundColor = UIColor(red: CGFloat.random(in: 0...1), green: CGFloat.random(in: 0...1), blue: CGFloat.random(in: 0...1), alpha: 1)
-    
+    // 4 (2)
+    // A1: Increment counter and set value
     counter += 1
-    
     label.text = String(counter)
     
     if counter % 17 == 0 {
+        // 5i (3)
         label.text = "\(seconds)s"
-        button.setTitle("yay", for: .normal)
-    } 
-}
 
+        // 5ii
+        // A1: Set title to "Yay" every 17 clicks
+        button.setTitle("Yay", for: .normal)
+    } else {
+        // 5iii
+        // A1: Set title back to "+1" when not every 17 clicks
+        button.setTitle("+1", for: .normal)
+    }
+
+}
 ```
 
 </details>
