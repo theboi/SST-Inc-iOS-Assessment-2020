@@ -166,6 +166,7 @@
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
 		AA48781225412E630065340B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AA7E0C4C256BFACB00E9683B /* RESULTS_TEMPLATE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RESULTS_TEMPLATE.md; sourceTree = "<group>"; };
 		AAF4EBAD254C811400E623D6 /* book_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_icon.png; sourceTree = "<group>"; };
 		AAF72E9C253BDFB20070A13A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		AAF72EA1253BE0070070A13A /* libTestChecker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestChecker.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -250,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				5E0E37542065A065008FA4BE /* README.md */,
+				AA7E0C4C256BFACB00E9683B /* RESULTS_TEMPLATE.md */,
 				AA48781225412E630065340B /* LICENSE */,
 				5E086DC12051C5A7004D8D25 /* SST-Inc-iOS-Assessment-2020 */,
 				5EA2E3BE2056F35A00416A35 /* LiveViewTestApp */,
