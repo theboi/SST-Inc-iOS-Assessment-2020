@@ -234,7 +234,7 @@ for i in 1...50 {
 imageView.image = UIImage(named: “wheres_waldo”)
 ```
 
-* A1: Access the imageView.image property and set it to the correct image
+* A1: Access the `imageView.image` property and set it to the correct image
 
 Incorrect:
 * Misspell "wheres_waldo", as it will result in no images showing up
@@ -298,10 +298,10 @@ Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
 ```
 
 * M1: Declaring a variable to keep track of the number of seconds passed
-* M1: Creating a Timer
-* M1: Correct TimeInterval and Repeats = true
-* M1: Correct use of Closure
-* A2: Adds 1 to the variable intended to keep track of the seconds passed and prints result
+* M1: Any usage of `Timer`
+* M1: Correct usage of `Timer.scheduledTimer(withTimeInterval:repeats:block:)`
+* M1: Correct use of closure for `block` argument
+* A1: Adds 1 to the variable and prints seconds
 
 </details>
 
