@@ -244,10 +244,10 @@ Incorrect:
 2. Adjust the `contentMode` value of the image such that the entire image can be viewed, without getting cropped, while keeping the aspect ratio (not stretched/squashed). `[1m]`
 
 ```swift
-imageView.contentMode = .aspectFit
+imageView.contentMode = .scaleAspectFit
 ```
 
-* A1: Set `imageView.contentMode` to the correct case
+* A1: Set `imageView.contentMode` to `.scaleAspectFit`
 
 ---
 
@@ -257,7 +257,7 @@ imageView.contentMode = .aspectFit
 UIImageView is used to display a UIImage while a UIImage is the image itself.
 ```
 
-* A1: UIImageView is a container view to hold the UIImage, whereas the UIImage is the image data.
+* A1: UIImageView is a container view/element to hold the UIImage, whereas the UIImage is the image data. Allow if answer makes sense.
 
 </details>
 
@@ -269,13 +269,13 @@ UIImageView is used to display a UIImage while a UIImage is the image itself.
 1. Given the variables above, write a set of conditions that tell the gate whether or not to unlock. `[5m]`
 
 ```swift
-if isWithinOperatingHours && isStudentPass || isBypassPass || isFire {
+if isWithinOperatingHours && isStudentPass || isTeacherPass || isFire {
     isUnlocked = true
 }
 
 // or
 
-isUnlocked = isWithinOperatingHours && isStudentPass || isBypassPass || isFire
+isUnlocked = isWithinOperatingHours && isStudentPass || isTeacherPass || isFire
 ```
 
 * M1: Correct use of && operator
@@ -310,8 +310,10 @@ Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
 
 1. Kesler's bugged code is shown below. There are **5 errors** present. Fix them. `[5m]`
 
+* M1: Per error fixed as shown in the code below. Allow if code still works but slightly changed.
+
 Incorrect:
-* Student fundamentally changes/rewrites the program 
+* Fundamentally changes/rewrites the program
 
 ```swift
 // 1
@@ -326,15 +328,15 @@ func isLeap(year: Int) -> Bool {
     
     // 4
     // A1: Replace division (/) with modulo (%)
-    if year / 4 == 0 {
+    if year % 4 == 0 {
         
         isLeap = true
         
         if year % 100 == 0 {
             
             // 5
-            // A1: Replace 0.0 to 0, because Int
-            isLeap = year % 400 == 0.0
+            // A1: Replace 0.0 with 0, because Int
+            isLeap = year % 400 == 0
             
         }
     }
@@ -388,7 +390,6 @@ A SIGTERM is usually caused by force quitting the Simulator
 var counter = 0
 
 // 5i (1)
-// M1: Create seconds var
 var seconds = 0
 
 func viewDidLoad() {
@@ -404,12 +405,6 @@ func viewDidLoad() {
 }
 
 func viewDidAppear(_ animated: Bool) {
-
-    // 5i (2)
-    // Increment seconds by 1 every second
-    Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
-        seconds += 1
-    }
 
 }
 
@@ -428,17 +423,30 @@ func onButtonPress() {
     counter += 1
     label.text = String(counter)
     
-    if counter % 17 == 0 {
+    if counter == 0 {
+    
+        // 5i (2)
+        // M1: Increment seconds by 1 every second when counter is 0
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (_) in
+            seconds += 1
+        }
+        
+    } else if counter % 17 == 0 {
+    
         // 5i (3)
+        // A1: Set label to seconds variable. 0m if no seconds variable
         label.text = "\(seconds)s"
 
         // 5ii
         // A1: Set title to "Yay" every 17 clicks
         button.setTitle("Yay", for: .normal)
+        
     } else {
+    
         // 5iii
         // A1: Set title back to "+1" when not every 17 clicks
         button.setTitle("+1", for: .normal)
+        
     }
 
 }
