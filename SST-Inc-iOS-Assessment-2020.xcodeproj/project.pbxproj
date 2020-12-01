@@ -166,6 +166,15 @@
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
 		AA48781225412E630065340B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AA631D4F257541470043B196 /* Christopher Hong_S208.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Christopher Hong_S208.md"; sourceTree = "<group>"; };
+		AA631D50257541470043B196 /* Ethan Tse_Results.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Ethan Tse_Results.md"; sourceTree = "<group>"; };
+		AA631D51257541480043B196 /* Giselle See_S208.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Giselle See_S208.md"; sourceTree = "<group>"; };
+		AA631D52257541E00043B196 /* Ooi Jing Shun_S104.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Ooi Jing Shun_S104.md"; sourceTree = "<group>"; };
+		AA631D53257548C30043B196 /* Ravin Nagpal_S103.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Ravin Nagpal_S103.md"; sourceTree = "<group>"; };
+		AA631D5425754FBD0043B196 /* Sarah Foo Zhi Ning_S108.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Sarah Foo Zhi Ning_S108.md"; sourceTree = "<group>"; };
+		AA631D552575E6B40043B196 /* Soh Yong Liang, Sylvester_S106.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Soh Yong Liang, Sylvester_S106.md"; sourceTree = "<group>"; };
+		AA631D562575EED90043B196 /* Soon Liren Nathan_S102.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Soon Liren Nathan_S102.md"; sourceTree = "<group>"; };
+		AA631D572575EF240043B196 /* Reeann Koh Rui En_S104.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Reeann Koh Rui En_S104.md"; sourceTree = "<group>"; };
 		AA7E0C4C256BFACB00E9683B /* RESULTS_TEMPLATE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RESULTS_TEMPLATE.md; sourceTree = "<group>"; };
 		AA7E0C51256C06BD00E9683B /* Tan Xuan Han_S108.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Tan Xuan Han_S108.md"; sourceTree = "<group>"; };
 		AAF4EBAD254C811400E623D6 /* book_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_icon.png; sourceTree = "<group>"; };
@@ -384,7 +393,16 @@
 		AA7E0C50256C03CB00E9683B /* RESULTS */ = {
 			isa = PBXGroup;
 			children = (
+				AA631D4F257541470043B196 /* Christopher Hong_S208.md */,
+				AA631D50257541470043B196 /* Ethan Tse_Results.md */,
+				AA631D51257541480043B196 /* Giselle See_S208.md */,
 				AA7E0C51256C06BD00E9683B /* Tan Xuan Han_S108.md */,
+				AA631D52257541E00043B196 /* Ooi Jing Shun_S104.md */,
+				AA631D53257548C30043B196 /* Ravin Nagpal_S103.md */,
+				AA631D5425754FBD0043B196 /* Sarah Foo Zhi Ning_S108.md */,
+				AA631D552575E6B40043B196 /* Soh Yong Liang, Sylvester_S106.md */,
+				AA631D562575EED90043B196 /* Soon Liren Nathan_S102.md */,
+				AA631D572575EF240043B196 /* Reeann Koh Rui En_S104.md */,
 			);
 			path = RESULTS;
 			sourceTree = "<group>";

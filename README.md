@@ -58,7 +58,7 @@ let magicNumber: Double = 3
 ```
 
 * M1: Explicitly set type to Double
-* M1: Set constant value to any integer
+* M1: Set constant value to any integer. Allow if set with `.0`
 
 ---
 
@@ -189,11 +189,11 @@ func fizzBuzz(number: Int) -> String {
    
     var output = ""
     
-    if i % 3 == 0 {
+    if number % 3 == 0 {
         output += "Fizz"
     }
     
-    if i % 4 == 0 {
+    if number % 4 == 0 {
         output += "Buzz"
     }
     
@@ -202,6 +202,21 @@ func fizzBuzz(number: Int) -> String {
     }
     
     return output
+}
+
+// or
+
+func fizzBuzz(number: Int) -> String {
+       
+    if number % 12 == 0 {
+        return "FizzBuzz"
+    } else if number % 3 == 0 {
+        return "Fizz"
+    } else if number % 4 == 0 {
+        return "Buzz"
+    } else {
+        return String(number)
+    }
 }
 ```
 
@@ -278,10 +293,10 @@ if isWithinOperatingHours && isStudentPass || isTeacherPass || isFire {
 isUnlocked = isWithinOperatingHours && isStudentPass || isTeacherPass || isFire
 ```
 
-* M1: Correct use of && operator
-* M1: Correct use of || operator for bypass pass
-* M1: Set isUnlocked properly
-* M1: Correct if syntax (if user does not use if, award based on the last condition)
+* M1: Correct use of `&&` operator
+* M1: Correct use of `||` operator or `else if` for teacher pass
+* M1: Set `isUnlocked` properly
+* M1: Correct if syntax (if user does not use `if`, award based on the last condition)
 * A1: Algorithm works, passed all private/public test cases
 
 ---
