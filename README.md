@@ -6,10 +6,13 @@ Source code for iOS Assessment 2020 taken by Secondary 1 and 2 students in SST I
 
 Only to be made public after date of the assessment.
 
-## Setters
+## Setters & Markers
 
 - [Ryan The](https://github.com/theboi)
 - [Jia Chen](https://github.com/jiachenyee)
+- [Ethan Chew](https://github.com/Ethan-Chew)
+- [Joshua](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [Joe](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Mark Sheet
 
