@@ -475,16 +475,17 @@ func onButtonPress() {
 1. Create a new iOS App (use Swift and Storyboard) with `Xcode.app`. Save it in the test directory you previously downloaded. `[1m]`
 2. Open `Main.storyboard` and create the user interface based on the specifications below. `[18m]`
 
-    2M per requirement fulfilled 
-    - Create an Xcode iOS App with Swift and Storyboard
-    - Embed navigation controller
-    - Make it initial view controller
-    - Add navcon right bar button item
-    - Add image with constraints
-    - Add stack view
-    - Add buttons in stack view
-    - Add tableview
-    - Add tableviewcell
+1m per requirement fulfilled. 1m per constraints for each requirement. If no constraints required, give free marks. Give marks if any effort shown in that area. Pity marks allowed. 🤡
+
+- Create an Xcode iOS App with Swift and Storyboard
+- Embed UINavigationController
+- Make it initial view controller
+- Add UINavigationBar right bar button item
+- Add UIImageView
+- Add UIStackView
+- Add UIButton's in UIStackView
+- Add UITableView
+- Add UITableViewCell
 
 
 </details>
