@@ -16,7 +16,7 @@ Refer to the mark sheet if you are doubtful of the accuracy of marking. If you b
 
 ## 🤡 Your Results
 
-**Total Score: XX/70**
+**Total Score: 65/70**
 
 ### Section A
 
@@ -356,9 +356,11 @@ public func onButtonPress() {
 </details>
 
 <details>
-<summary><strong>B4. RickTube • [X/19]</strong></summary>
+<summary><strong>B4. RickTube • [19/19]</strong></summary>
 
 1. Create a new iOS App (use Swift and Storyboard) with `Xcode.app`. Save it in the test directory you previously downloaded. `[X/1]`
 2. Open `Main.storyboard` and create the user interface based on the specifications below. `[X/18]`
+
+> All requirements fulfilled.
 
 </details>

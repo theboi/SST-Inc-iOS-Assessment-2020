@@ -9,12 +9,12 @@ Refer to the mark sheet if you are doubtful of the accuracy of marking. If you b
 ## 👀 Feedback
 
 >
-> 
+> Good try but concepts not grasped well enough yet, all you need is more practice and you are en route to success. _Believe you can and you're halfway there_ 💪
 >
 
 ## 🤡 Your Results
 
-**Total Score: XX/70**
+**Total Score: 21/70**
 
 ### Section A
 
@@ -329,9 +329,11 @@ public func onButtonPress() {
 </details>
 
 <details>
-<summary><strong>B4. RickTube • [X/19]</strong></summary>
+<summary><strong>B4. RickTube • [4/19]</strong></summary>
 
 1. Create a new iOS App (use Swift and Storyboard) with `Xcode.app`. Save it in the test directory you previously downloaded. `[1m]`
 2. Open `Main.storyboard` and create the user interface based on the specifications below. `[18m]`
+
+> Created app and made it initial view controller. 
 
 </details>

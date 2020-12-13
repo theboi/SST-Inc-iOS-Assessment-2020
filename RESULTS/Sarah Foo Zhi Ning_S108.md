@@ -9,12 +9,16 @@ Refer to the mark sheet if you are doubtful of the accuracy of marking. If you b
 ## 👀 Feedback
 
 >
+> Great work, practice and correction is all you need! 💪
 > 
+> It seems you tend to rely on the auto-fix which is evident because of `Int.type`. 
+> 
+> The reason why it errs is most of the time is because, where a `return` is required, you simply `print()`ed the answer. *Return*ing allows you to pass the value to the caller of the function. You may want to take a look at https://docs.swift.org/swift-book/LanguageGuide/Functions.html.
 >
 
 ## 🤡 Your Results
 
-**Total Score: XX/70**
+**Total Score: 38/70**
 
 ### Section A
 
@@ -123,7 +127,7 @@ print(teachers[Teacher.name]+"is the best")
 </details>
 
 <details>
-<summary><strong>A4. FizzBuzz • [X/6]</strong></summary>
+<summary><strong>A4. FizzBuzz • [2/6]</strong></summary>
 
 1. Create a function called `fizzBuzz` which takes a parameter `number` of type `Int` and returns a `String` ("Fizz", "Buzz", "FizzBuzz", or the number itself) based on the conditions above. Refer to the sample Input/Output. `[4m]`
 
@@ -239,12 +243,12 @@ if  withinOperatingHours == false && isStudentPass = false   &&  isTeacherPass =
 </details>
 
 <details>
-<summary><strong>B2. Leap Years • [3/9]</strong></summary>
+<summary><strong>B2. Leap Years • [4/9]</strong></summary>
 
 1. Kesler's bugged code is shown below. There are **5 errors** present. Fix them. `[5m]`
 
 ```swift
-func isLeap(year: Int) -> <#Return Type#> {
+func isLeap(year: Int) -> <#Return Type#> { /// 1m
     
     var isLeap = true   /// 1m
     
@@ -263,7 +267,7 @@ func isLeap(year: Int) -> <#Return Type#> {
 }
 ```
 
-> 2m. See answer sheet.
+> 3m. See answer sheet. BOD Return Type
 
 ---
 
@@ -331,9 +335,11 @@ if count == 17{
 </details>
 
 <details>
-<summary><strong>B4. RickTube • [X/19]</strong></summary>
+<summary><strong>B4. RickTube • [17/19]</strong></summary>
 
 1. Create a new iOS App (use Swift and Storyboard) with `Xcode.app`. Save it in the test directory you previously downloaded. `[1m]`
 2. Open `Main.storyboard` and create the user interface based on the specifications below. `[18m]`
+
+> Not embed in UINavigationController.
 
 </details>

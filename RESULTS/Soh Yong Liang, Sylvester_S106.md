@@ -9,12 +9,12 @@ Refer to the mark sheet if you are doubtful of the accuracy of marking. If you b
 ## 👀 Feedback
 
 >
-> 
+> Great work, started off strong but I believe started to run out of time? Nonetheless, good effort, more practice and correction is all you need! 💪 (It's a pity you did not finish the last question tho -- it was a giveaway -- even so you managed to get 33 so great job)
 >
 
 ## 🤡 Your Results
 
-**Total Score: XX/70**
+**Total Score: 33/70**
 
 ### Section A
 
@@ -127,7 +127,7 @@ for i in 1...4 {
 </details>
 
 <details>
-<summary><strong>A4. FizzBuzz • [X/6]</strong></summary>
+<summary><strong>A4. FizzBuzz • [1/6]</strong></summary>
 
 1. Create a function called `fizzBuzz` which takes a parameter `number` of type `Int` and returns a `String` ("Fizz", "Buzz", "FizzBuzz", or the number itself) based on the conditions above. Refer to the sample Input/Output. `[4m]`
 
@@ -361,9 +361,11 @@ public func onButtonPress() {
 </details>
 
 <details>
-<summary><strong>B4. RickTube • [X/19]</strong></summary>
+<summary><strong>B4. RickTube • [8/19]</strong></summary>
 
 1. Create a new iOS App (use Swift and Storyboard) with `Xcode.app`. Save it in the test directory you previously downloaded. `[1m]`
 2. Open `Main.storyboard` and create the user interface based on the specifications below. `[18m]`
+
+> See answer sheet.
 
 </details>

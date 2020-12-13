@@ -9,12 +9,12 @@ Refer to the mark sheet if you are doubtful of the accuracy of marking. If you b
 ## 👀 Feedback
 
 >
-> Also, did you know cheating is a serious offence?...
+> Good try but concepts not grasped well enough yet, all you need is more practice and you are en route to success. _Believe you can and you're halfway there_ 💪 (Also, did you know cheating is a serious offence?...)
 >
 
 ## 🤡 Your Results
 
-**Total Score: XX/70**
+**Total Score: 29/70**
 
 ### Section A
 
@@ -122,7 +122,7 @@ var array [teachers]
 </details>
 
 <details>
-<summary><strong>A4. FizzBuzz • [X/6]</strong></summary>
+<summary><strong>A4. FizzBuzz • [0/6]</strong></summary>
 
 1. Create a function called `fizzBuzz` which takes a parameter `number` of type `Int` and returns a `String` ("Fizz", "Buzz", "FizzBuzz", or the number itself) based on the conditions above. Refer to the sample Input/Output. `[4m]`
 
@@ -331,9 +331,11 @@ public func onButtonPress() {
 </details>
 
 <details>
-<summary><strong>B4. RickTube • [X/19]</strong></summary>
+<summary><strong>B4. RickTube • [10/19]</strong></summary>
 
 1. Create a new iOS App (use Swift and Storyboard) with `Xcode.app`. Save it in the test directory you previously downloaded. `[1m]`
 2. Open `Main.storyboard` and create the user interface based on the specifications below. `[18m]`
+
+> Some features missing. See answer sheet
 
 </details>
