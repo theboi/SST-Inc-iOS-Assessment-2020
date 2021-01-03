@@ -25,30 +25,28 @@
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		AA48781325412E630065340B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = AA48781225412E630065340B /* LICENSE */; };
 		AA943C9225A1E966009D0391 /* Ethan Tse_S205.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7925A1E965009D0391 /* Ethan Tse_S205.md */; };
-		AA943C9325A1E966009D0391 /* Dayanita_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7A25A1E965009D0391 /* Dayanita_S108.md */; };
-		AA943C9425A1E966009D0391 /* Soon Liren Nathan_S102.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7B25A1E965009D0391 /* Soon Liren Nathan_S102.md */; };
-		AA943C9525A1E966009D0391 /* Gulati Puru Raj_S103.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7C25A1E965009D0391 /* Gulati Puru Raj_S103.md */; };
-		AA943C9625A1E966009D0391 /* Foo Lee Yong_S106.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7D25A1E965009D0391 /* Foo Lee Yong_S106.md */; };
-		AA943C9725A1E966009D0391 /* Neo Gao En_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7E25A1E965009D0391 /* Neo Gao En_S108.md */; };
-		AA943C9825A1E966009D0391 /* Ravin Nagpal_S103.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7F25A1E965009D0391 /* Ravin Nagpal_S103.md */; };
-		AA943C9925A1E966009D0391 /* Ean Shaw_S102.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8025A1E965009D0391 /* Ean Shaw_S102.md */; };
-		AA943C9A25A1E966009D0391 /* Ang Wei Jie_S107.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8125A1E965009D0391 /* Ang Wei Jie_S107.md */; };
-		AA943C9B25A1E966009D0391 /* Ang Jayden_S106.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8225A1E966009D0391 /* Ang Jayden_S106.md */; };
-		AA943C9C25A1E966009D0391 /* Anjali Curic_S1-08.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8325A1E966009D0391 /* Anjali Curic_S1-08.md */; };
-		AA943C9D25A1E966009D0391 /* Kiran Lim_S107.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8425A1E966009D0391 /* Kiran Lim_S107.md */; };
-		AA943C9E25A1E966009D0391 /* Chan Yusheng Darwin_S1-08.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8525A1E966009D0391 /* Chan Yusheng Darwin_S1-08.md */; };
-		AA943C9F25A1E966009D0391 /* angelphanlihui_S1-08.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8625A1E966009D0391 /* angelphanlihui_S1-08.md */; };
-		AA943CA025A1E966009D0391 /* Tan Xuan Han_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8725A1E966009D0391 /* Tan Xuan Han_S108.md */; };
-		AA943CA125A1E966009D0391 /* Daksh Thapar.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8825A1E966009D0391 /* Daksh Thapar.md */; };
+		AA943C9325A1E966009D0391 /* DAYANITA SAMINATHAN_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7A25A1E965009D0391 /* DAYANITA SAMINATHAN_S108.md */; };
+		AA943C9525A1E966009D0391 /* GULATI PURU RAJ_S103.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7C25A1E965009D0391 /* GULATI PURU RAJ_S103.md */; };
+		AA943C9625A1E966009D0391 /* FOO LE YONG_S106.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7D25A1E965009D0391 /* FOO LE YONG_S106.md */; };
+		AA943C9725A1E966009D0391 /* NEO GAO EN_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7E25A1E965009D0391 /* NEO GAO EN_S108.md */; };
+		AA943C9825A1E966009D0391 /* RAVIN NAGPAL_S103.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C7F25A1E965009D0391 /* RAVIN NAGPAL_S103.md */; };
+		AA943C9925A1E966009D0391 /* THAM EAN SHAW_S102.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8025A1E965009D0391 /* THAM EAN SHAW_S102.md */; };
+		AA943C9A25A1E966009D0391 /* ANG WEI JIE_S107.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8125A1E965009D0391 /* ANG WEI JIE_S107.md */; };
+		AA943C9B25A1E966009D0391 /* ANG JAYDEN_S106.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8225A1E966009D0391 /* ANG JAYDEN_S106.md */; };
+		AA943C9C25A1E966009D0391 /* ANJALI CURIC_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8325A1E966009D0391 /* ANJALI CURIC_S108.md */; };
+		AA943C9D25A1E966009D0391 /* KIRAN LIM_S107.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8425A1E966009D0391 /* KIRAN LIM_S107.md */; };
+		AA943C9E25A1E966009D0391 /* CHAN YUSHENG DARWIN_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8525A1E966009D0391 /* CHAN YUSHENG DARWIN_S108.md */; };
+		AA943C9F25A1E966009D0391 /* ANGEL PHAN LI HUI_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8625A1E966009D0391 /* ANGEL PHAN LI HUI_S108.md */; };
+		AA943CA025A1E966009D0391 /* TAN XUAN HAN_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8725A1E966009D0391 /* TAN XUAN HAN_S108.md */; };
+		AA943CA125A1E966009D0391 /* DAKSH THAPAR_S103.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8825A1E966009D0391 /* DAKSH THAPAR_S103.md */; };
 		AA943CA225A1E966009D0391 /* Christopher Hong_S208.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8925A1E966009D0391 /* Christopher Hong_S208.md */; };
 		AA943CA325A1E966009D0391 /* Giselle See_S208.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8A25A1E966009D0391 /* Giselle See_S208.md */; };
-		AA943CA425A1E966009D0391 /* Sarah Foo Zhi Ning_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8B25A1E966009D0391 /* Sarah Foo Zhi Ning_S108.md */; };
+		AA943CA425A1E966009D0391 /* SARAH FOO ZHI NING_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8B25A1E966009D0391 /* SARAH FOO ZHI NING_S108.md */; };
 		AA943CA525A1E966009D0391 /* Brayden_S205.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8C25A1E966009D0391 /* Brayden_S205.md */; };
-		AA943CA625A1E966009D0391 /* Reeann Koh Rui En_S104.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8D25A1E966009D0391 /* Reeann Koh Rui En_S104.md */; };
-		AA943CA725A1E966009D0391 /* Alonzo Puah_S1-08.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8E25A1E966009D0391 /* Alonzo Puah_S1-08.md */; };
-		AA943CA825A1E966009D0391 /* Ooi Jing Shun_S104.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8F25A1E966009D0391 /* Ooi Jing Shun_S104.md */; };
-		AA943CA925A1E966009D0391 /* Soh Yong Liang, Sylvester_S106.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C9025A1E966009D0391 /* Soh Yong Liang, Sylvester_S106.md */; };
-		AA943CAA25A1E966009D0391 /* Faith Goh_S102.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C9125A1E966009D0391 /* Faith Goh_S102.md */; };
+		AA943CA725A1E966009D0391 /* ALONZO PUAH YU HENG_S108.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8E25A1E966009D0391 /* ALONZO PUAH YU HENG_S108.md */; };
+		AA943CA825A1E966009D0391 /* OOI JING SHUN_S104.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C8F25A1E966009D0391 /* OOI JING SHUN_S104.md */; };
+		AA943CA925A1E966009D0391 /* SOH YONG LIANG, SYLVESTER_S106.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C9025A1E966009D0391 /* SOH YONG LIANG, SYLVESTER_S106.md */; };
+		AA943CAA25A1E966009D0391 /* FAITH GOH REN YING_S102.md in Resources */ = {isa = PBXBuildFile; fileRef = AA943C9125A1E966009D0391 /* FAITH GOH REN YING_S102.md */; };
 		AAF4EBAE254C811400E623D6 /* book_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAF4EBAD254C811400E623D6 /* book_icon.png */; };
 		AAF72EA8253BE17B0070A13A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF72E9C253BDFB20070A13A /* Test.swift */; };
 /* End PBXBuildFile section */
@@ -193,30 +191,28 @@
 		AA48781225412E630065340B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AA7E0C4C256BFACB00E9683B /* RESULTS_TEMPLATE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RESULTS_TEMPLATE.md; sourceTree = "<group>"; };
 		AA943C7925A1E965009D0391 /* Ethan Tse_S205.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Ethan Tse_S205.md"; sourceTree = "<group>"; };
-		AA943C7A25A1E965009D0391 /* Dayanita_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Dayanita_S108.md; sourceTree = "<group>"; };
-		AA943C7B25A1E965009D0391 /* Soon Liren Nathan_S102.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Soon Liren Nathan_S102.md"; sourceTree = "<group>"; };
-		AA943C7C25A1E965009D0391 /* Gulati Puru Raj_S103.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Gulati Puru Raj_S103.md"; sourceTree = "<group>"; };
-		AA943C7D25A1E965009D0391 /* Foo Lee Yong_S106.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Foo Lee Yong_S106.md"; sourceTree = "<group>"; };
-		AA943C7E25A1E965009D0391 /* Neo Gao En_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Neo Gao En_S108.md"; sourceTree = "<group>"; };
-		AA943C7F25A1E965009D0391 /* Ravin Nagpal_S103.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Ravin Nagpal_S103.md"; sourceTree = "<group>"; };
-		AA943C8025A1E965009D0391 /* Ean Shaw_S102.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Ean Shaw_S102.md"; sourceTree = "<group>"; };
-		AA943C8125A1E965009D0391 /* Ang Wei Jie_S107.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Ang Wei Jie_S107.md"; sourceTree = "<group>"; };
-		AA943C8225A1E966009D0391 /* Ang Jayden_S106.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Ang Jayden_S106.md"; sourceTree = "<group>"; };
-		AA943C8325A1E966009D0391 /* Anjali Curic_S1-08.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Anjali Curic_S1-08.md"; sourceTree = "<group>"; };
-		AA943C8425A1E966009D0391 /* Kiran Lim_S107.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Kiran Lim_S107.md"; sourceTree = "<group>"; };
-		AA943C8525A1E966009D0391 /* Chan Yusheng Darwin_S1-08.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Chan Yusheng Darwin_S1-08.md"; sourceTree = "<group>"; };
-		AA943C8625A1E966009D0391 /* angelphanlihui_S1-08.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "angelphanlihui_S1-08.md"; sourceTree = "<group>"; };
-		AA943C8725A1E966009D0391 /* Tan Xuan Han_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Tan Xuan Han_S108.md"; sourceTree = "<group>"; };
-		AA943C8825A1E966009D0391 /* Daksh Thapar.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Daksh Thapar.md"; sourceTree = "<group>"; };
+		AA943C7A25A1E965009D0391 /* DAYANITA SAMINATHAN_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "DAYANITA SAMINATHAN_S108.md"; sourceTree = "<group>"; };
+		AA943C7C25A1E965009D0391 /* GULATI PURU RAJ_S103.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "GULATI PURU RAJ_S103.md"; sourceTree = "<group>"; };
+		AA943C7D25A1E965009D0391 /* FOO LE YONG_S106.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "FOO LE YONG_S106.md"; sourceTree = "<group>"; };
+		AA943C7E25A1E965009D0391 /* NEO GAO EN_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "NEO GAO EN_S108.md"; sourceTree = "<group>"; };
+		AA943C7F25A1E965009D0391 /* RAVIN NAGPAL_S103.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "RAVIN NAGPAL_S103.md"; sourceTree = "<group>"; };
+		AA943C8025A1E965009D0391 /* THAM EAN SHAW_S102.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "THAM EAN SHAW_S102.md"; sourceTree = "<group>"; };
+		AA943C8125A1E965009D0391 /* ANG WEI JIE_S107.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ANG WEI JIE_S107.md"; sourceTree = "<group>"; };
+		AA943C8225A1E966009D0391 /* ANG JAYDEN_S106.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ANG JAYDEN_S106.md"; sourceTree = "<group>"; };
+		AA943C8325A1E966009D0391 /* ANJALI CURIC_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ANJALI CURIC_S108.md"; sourceTree = "<group>"; };
+		AA943C8425A1E966009D0391 /* KIRAN LIM_S107.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "KIRAN LIM_S107.md"; sourceTree = "<group>"; };
+		AA943C8525A1E966009D0391 /* CHAN YUSHENG DARWIN_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "CHAN YUSHENG DARWIN_S108.md"; sourceTree = "<group>"; };
+		AA943C8625A1E966009D0391 /* ANGEL PHAN LI HUI_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ANGEL PHAN LI HUI_S108.md"; sourceTree = "<group>"; };
+		AA943C8725A1E966009D0391 /* TAN XUAN HAN_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "TAN XUAN HAN_S108.md"; sourceTree = "<group>"; };
+		AA943C8825A1E966009D0391 /* DAKSH THAPAR_S103.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "DAKSH THAPAR_S103.md"; sourceTree = "<group>"; };
 		AA943C8925A1E966009D0391 /* Christopher Hong_S208.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Christopher Hong_S208.md"; sourceTree = "<group>"; };
 		AA943C8A25A1E966009D0391 /* Giselle See_S208.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Giselle See_S208.md"; sourceTree = "<group>"; };
-		AA943C8B25A1E966009D0391 /* Sarah Foo Zhi Ning_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Sarah Foo Zhi Ning_S108.md"; sourceTree = "<group>"; };
+		AA943C8B25A1E966009D0391 /* SARAH FOO ZHI NING_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "SARAH FOO ZHI NING_S108.md"; sourceTree = "<group>"; };
 		AA943C8C25A1E966009D0391 /* Brayden_S205.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Brayden_S205.md; sourceTree = "<group>"; };
-		AA943C8D25A1E966009D0391 /* Reeann Koh Rui En_S104.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Reeann Koh Rui En_S104.md"; sourceTree = "<group>"; };
-		AA943C8E25A1E966009D0391 /* Alonzo Puah_S1-08.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Alonzo Puah_S1-08.md"; sourceTree = "<group>"; };
-		AA943C8F25A1E966009D0391 /* Ooi Jing Shun_S104.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Ooi Jing Shun_S104.md"; sourceTree = "<group>"; };
-		AA943C9025A1E966009D0391 /* Soh Yong Liang, Sylvester_S106.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Soh Yong Liang, Sylvester_S106.md"; sourceTree = "<group>"; };
-		AA943C9125A1E966009D0391 /* Faith Goh_S102.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Faith Goh_S102.md"; sourceTree = "<group>"; };
+		AA943C8E25A1E966009D0391 /* ALONZO PUAH YU HENG_S108.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "ALONZO PUAH YU HENG_S108.md"; sourceTree = "<group>"; };
+		AA943C8F25A1E966009D0391 /* OOI JING SHUN_S104.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "OOI JING SHUN_S104.md"; sourceTree = "<group>"; };
+		AA943C9025A1E966009D0391 /* SOH YONG LIANG, SYLVESTER_S106.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "SOH YONG LIANG, SYLVESTER_S106.md"; sourceTree = "<group>"; };
+		AA943C9125A1E966009D0391 /* FAITH GOH REN YING_S102.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "FAITH GOH REN YING_S102.md"; sourceTree = "<group>"; };
 		AAF4EBAD254C811400E623D6 /* book_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_icon.png; sourceTree = "<group>"; };
 		AAF72E9C253BDFB20070A13A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		AAF72EA1253BE0070070A13A /* libTestChecker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestChecker.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -433,31 +429,29 @@
 		AA7E0C50256C03CB00E9683B /* RESULTS */ = {
 			isa = PBXGroup;
 			children = (
-				AA943C8E25A1E966009D0391 /* Alonzo Puah_S1-08.md */,
-				AA943C8225A1E966009D0391 /* Ang Jayden_S106.md */,
-				AA943C8125A1E965009D0391 /* Ang Wei Jie_S107.md */,
-				AA943C8625A1E966009D0391 /* angelphanlihui_S1-08.md */,
-				AA943C8325A1E966009D0391 /* Anjali Curic_S1-08.md */,
+				AA943C8E25A1E966009D0391 /* ALONZO PUAH YU HENG_S108.md */,
+				AA943C8225A1E966009D0391 /* ANG JAYDEN_S106.md */,
+				AA943C8125A1E965009D0391 /* ANG WEI JIE_S107.md */,
+				AA943C8625A1E966009D0391 /* ANGEL PHAN LI HUI_S108.md */,
+				AA943C8325A1E966009D0391 /* ANJALI CURIC_S108.md */,
 				AA943C8C25A1E966009D0391 /* Brayden_S205.md */,
-				AA943C8525A1E966009D0391 /* Chan Yusheng Darwin_S1-08.md */,
+				AA943C8525A1E966009D0391 /* CHAN YUSHENG DARWIN_S108.md */,
 				AA943C8925A1E966009D0391 /* Christopher Hong_S208.md */,
-				AA943C8825A1E966009D0391 /* Daksh Thapar.md */,
-				AA943C7A25A1E965009D0391 /* Dayanita_S108.md */,
-				AA943C8025A1E965009D0391 /* Ean Shaw_S102.md */,
+				AA943C8825A1E966009D0391 /* DAKSH THAPAR_S103.md */,
+				AA943C7A25A1E965009D0391 /* DAYANITA SAMINATHAN_S108.md */,
+				AA943C8025A1E965009D0391 /* THAM EAN SHAW_S102.md */,
 				AA943C7925A1E965009D0391 /* Ethan Tse_S205.md */,
-				AA943C9125A1E966009D0391 /* Faith Goh_S102.md */,
-				AA943C7D25A1E965009D0391 /* Foo Lee Yong_S106.md */,
+				AA943C9125A1E966009D0391 /* FAITH GOH REN YING_S102.md */,
+				AA943C7D25A1E965009D0391 /* FOO LE YONG_S106.md */,
 				AA943C8A25A1E966009D0391 /* Giselle See_S208.md */,
-				AA943C7C25A1E965009D0391 /* Gulati Puru Raj_S103.md */,
-				AA943C8425A1E966009D0391 /* Kiran Lim_S107.md */,
-				AA943C7E25A1E965009D0391 /* Neo Gao En_S108.md */,
-				AA943C8F25A1E966009D0391 /* Ooi Jing Shun_S104.md */,
-				AA943C7F25A1E965009D0391 /* Ravin Nagpal_S103.md */,
-				AA943C8D25A1E966009D0391 /* Reeann Koh Rui En_S104.md */,
-				AA943C8B25A1E966009D0391 /* Sarah Foo Zhi Ning_S108.md */,
-				AA943C9025A1E966009D0391 /* Soh Yong Liang, Sylvester_S106.md */,
-				AA943C7B25A1E965009D0391 /* Soon Liren Nathan_S102.md */,
-				AA943C8725A1E966009D0391 /* Tan Xuan Han_S108.md */,
+				AA943C7C25A1E965009D0391 /* GULATI PURU RAJ_S103.md */,
+				AA943C8425A1E966009D0391 /* KIRAN LIM_S107.md */,
+				AA943C7E25A1E965009D0391 /* NEO GAO EN_S108.md */,
+				AA943C8F25A1E966009D0391 /* OOI JING SHUN_S104.md */,
+				AA943C7F25A1E965009D0391 /* RAVIN NAGPAL_S103.md */,
+				AA943C8B25A1E966009D0391 /* SARAH FOO ZHI NING_S108.md */,
+				AA943C9025A1E966009D0391 /* SOH YONG LIANG, SYLVESTER_S106.md */,
+				AA943C8725A1E966009D0391 /* TAN XUAN HAN_S108.md */,
 			);
 			path = RESULTS;
 			sourceTree = "<group>";
@@ -632,36 +626,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA943CA825A1E966009D0391 /* Ooi Jing Shun_S104.md in Resources */,
-				AA943CAA25A1E966009D0391 /* Faith Goh_S102.md in Resources */,
-				AA943C9825A1E966009D0391 /* Ravin Nagpal_S103.md in Resources */,
-				AA943CA925A1E966009D0391 /* Soh Yong Liang, Sylvester_S106.md in Resources */,
-				AA943C9C25A1E966009D0391 /* Anjali Curic_S1-08.md in Resources */,
-				AA943C9925A1E966009D0391 /* Ean Shaw_S102.md in Resources */,
-				AA943C9E25A1E966009D0391 /* Chan Yusheng Darwin_S1-08.md in Resources */,
-				AA943C9425A1E966009D0391 /* Soon Liren Nathan_S102.md in Resources */,
-				AA943CA125A1E966009D0391 /* Daksh Thapar.md in Resources */,
-				AA943CA425A1E966009D0391 /* Sarah Foo Zhi Ning_S108.md in Resources */,
-				AA943C9F25A1E966009D0391 /* angelphanlihui_S1-08.md in Resources */,
+				AA943CA825A1E966009D0391 /* OOI JING SHUN_S104.md in Resources */,
+				AA943CAA25A1E966009D0391 /* FAITH GOH REN YING_S102.md in Resources */,
+				AA943C9825A1E966009D0391 /* RAVIN NAGPAL_S103.md in Resources */,
+				AA943CA925A1E966009D0391 /* SOH YONG LIANG, SYLVESTER_S106.md in Resources */,
+				AA943C9C25A1E966009D0391 /* ANJALI CURIC_S108.md in Resources */,
+				AA943C9925A1E966009D0391 /* THAM EAN SHAW_S102.md in Resources */,
+				AA943C9E25A1E966009D0391 /* CHAN YUSHENG DARWIN_S108.md in Resources */,
+				AA943CA125A1E966009D0391 /* DAKSH THAPAR_S103.md in Resources */,
+				AA943CA425A1E966009D0391 /* SARAH FOO ZHI NING_S108.md in Resources */,
+				AA943C9F25A1E966009D0391 /* ANGEL PHAN LI HUI_S108.md in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
-				AA943C9725A1E966009D0391 /* Neo Gao En_S108.md in Resources */,
-				AA943C9325A1E966009D0391 /* Dayanita_S108.md in Resources */,
-				AA943C9B25A1E966009D0391 /* Ang Jayden_S106.md in Resources */,
+				AA943C9725A1E966009D0391 /* NEO GAO EN_S108.md in Resources */,
+				AA943C9325A1E966009D0391 /* DAYANITA SAMINATHAN_S108.md in Resources */,
+				AA943C9B25A1E966009D0391 /* ANG JAYDEN_S106.md in Resources */,
 				AA943C9225A1E966009D0391 /* Ethan Tse_S205.md in Resources */,
-				AA943CA625A1E966009D0391 /* Reeann Koh Rui En_S104.md in Resources */,
 				AAF4EBAE254C811400E623D6 /* book_icon.png in Resources */,
-				AA943CA025A1E966009D0391 /* Tan Xuan Han_S108.md in Resources */,
+				AA943CA025A1E966009D0391 /* TAN XUAN HAN_S108.md in Resources */,
 				AA943CA325A1E966009D0391 /* Giselle See_S208.md in Resources */,
 				AA943CA225A1E966009D0391 /* Christopher Hong_S208.md in Resources */,
 				AA943CA525A1E966009D0391 /* Brayden_S205.md in Resources */,
 				5E551EC52371FC3F00784365 /* Assets.xcassets in Resources */,
 				AA48781325412E630065340B /* LICENSE in Resources */,
-				AA943CA725A1E966009D0391 /* Alonzo Puah_S1-08.md in Resources */,
-				AA943C9625A1E966009D0391 /* Foo Lee Yong_S106.md in Resources */,
-				AA943C9D25A1E966009D0391 /* Kiran Lim_S107.md in Resources */,
-				AA943C9A25A1E966009D0391 /* Ang Wei Jie_S107.md in Resources */,
+				AA943CA725A1E966009D0391 /* ALONZO PUAH YU HENG_S108.md in Resources */,
+				AA943C9625A1E966009D0391 /* FOO LE YONG_S106.md in Resources */,
+				AA943C9D25A1E966009D0391 /* KIRAN LIM_S107.md in Resources */,
+				AA943C9A25A1E966009D0391 /* ANG WEI JIE_S107.md in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
-				AA943C9525A1E966009D0391 /* Gulati Puru Raj_S103.md in Resources */,
+				AA943C9525A1E966009D0391 /* GULATI PURU RAJ_S103.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
